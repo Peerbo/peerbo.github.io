@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Fix ugly ass font g">
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
     </list>
@@ -25,7 +25,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="zielu.gittoolbox.app.config" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -41,12 +41,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c2ca37a1-ea80-4954-9d32-c45960318b4f" name="Default Changelist" comment="" />
+      <changelist id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="" />
       <created>1607811935014</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607811935014</updated>
       <workItem from="1607811938285" duration="413000" />
+      <workItem from="1607813933927" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -62,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607813361381</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed font">
+      <created>1607813609001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607813609001</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,11 +86,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add HTML boilerplate" />
     <MESSAGE value="update css" />
     <MESSAGE value="Fix ugly ass font g" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix ugly ass font g" />
+    <MESSAGE value="fixed font" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed font" />
   </component>
 </project>
