@@ -31,8 +31,7 @@ Bachelor of Commerce with a Major in Entrepreneurship and Retail Management
 GPA: 3.81
 
 
-## Awards
-
+## Awards  
 - University Institutional Bursary (2019)  
 - Second place on a nationwide essay writing competition (2016)
 
@@ -43,10 +42,9 @@ Microsoft Office Suite
 Business Analysis  
 Programming (Python, HTML, CSS, JavaScript)
 
-
 ### Communication  
 Fluent English, French, and Mauiritian Creole
 
-## Interests
 
+## Interests  
 Cooking, baking, reading, creative writing, drawing, swimming, ballroom dancing
