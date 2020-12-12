@@ -48,5 +48,7 @@ Second place on a nationwide essay writing competition (2016)
 ## Skills
 
 Microsoft Office Suite
+
 Business Analysis
+
 Programming (Python, HTML, CSS, JavaScript)
