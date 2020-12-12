@@ -1,8 +1,27 @@
-## My name is Kerim
+## Kerim Peerbocus
 
-You can use the [editor on GitHub](https://github.com/Peerbo/peerbo.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Experience
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+AUDITING INTERN, BDO Mauritius
+Summer 2019
+• Received daily reports and supporting documentation for routine audits and promptly reported any discrepancies for further review.
+• Verified calculations to minimize accounting errors and keep records compliant with company standards.
+• Edited schedules and gathered data for the auditing managers, saving time for the whole team. 
+
+HUMAN RESOURCES MANAGER, JA Mini Company Competition 
+Jan – Aug 2017
+•	Recruited and supervised workers to help with production and distribution of our products
+•	Dealt with disagreements between 2 managers, resulting in an increase in productivity for the whole group
+
+TEAM LEADER, Omnicane Awards Mauritius
+Jan – Jul 2017
+•	Managed a team of 5 students to create a report relating to the welfare state of Mauritius
+•	Interviewed around 10 individuals to get more data relating to the topic
+
+### Education
+
+McGill University
+Bachelor of Commerce: Major in Entrepreneurship and Retail Management
 
 ### Markdown
 
@@ -28,9 +47,12 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Skills
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Peerbo/peerbo.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Microsoft Office Suite
+Business Analysis
+Programming (Python, HTML, CSS, JavaScript)
+
 
 ### Support or Contact
 
