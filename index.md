@@ -1,7 +1,7 @@
 # Kerim Peerbocus
 
 Welcome to my website ^^  
-Feel free to contact me at muhammad.peerbocus@mail.mcgill.ca, or through my Linkedin via www.linkedin.com/in/kerimpeerbocus
+Feel free to contact me at [muhammad.peerbocus@mail.mcgill.ca], or through my Linkedin via [www.linkedin.com/in/kerimpeerbocus]
 
 ## Experience  
 ### Auditing Intern, BDO Mauritius
