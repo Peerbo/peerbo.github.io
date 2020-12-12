@@ -26,8 +26,8 @@ Jan – Jul 2017
 
 ## Education
 
-McGill University  
-Bachelor of Commerce: Major in Entrepreneurship and Retail Management  
+McGill University, 2019-2022E   
+Bachelor of Commerce with a Major in Entrepreneurship and Retail Management  
 GPA: 3.81
 
 
@@ -42,3 +42,11 @@ GPA: 3.81
 Microsoft Office Suite  
 Business Analysis  
 Programming (Python, HTML, CSS, JavaScript)
+
+
+### Communication  
+Fluent English, French, and Mauiritian Creole
+
+## Interests
+
+Cooking, baking, reading, creative writing, drawing, swimming, ballroom dancing
