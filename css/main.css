@@ -12,7 +12,7 @@
    ========================================================================== */
 
 html {
-  color: #222;
+  color: #bd7bde;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -33,7 +33,7 @@ html {
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #ffffff;
   text-shadow: none;
 }
 
@@ -70,8 +70,8 @@ video {
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
+  border: 1;
+  margin: 1;
   padding: 0;
 }
 
