@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
+
+:root {
+  --bg-color: #c8e2ff;
+  /*Text colors*/
+  --title-color: #6893de;
+  --subtitle-color: #6ca2ff;
+  --body-color: #737373;
+  /*Nav bar for other pages colors*/
+  --navbar-color: #737373;
+  --navbar-hover: #87baff;
+}
+
+h1 { /*Main heading*/
+  font-size: 2em;
+  color: var(--title-color);
+  font-family: 'Pacifico', cursive;
+  margin: 0.67em;
+}
+
+h2 { /*Subheading*/
+  font-size: 1.5em;
+  color: var(--subtitle-color);
+  font-family: 'Pacifico', cursive;
+  margin: 0.6em;
+}
+
+body { /*Main text*/
+  font-size: 1em;
+  color: var(--body-color);
+  font-family: 'Josefin Slab', monospace;
+  margin: 0.67em;
+  background-color: var(--bg-color);
+}
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -12,11 +47,16 @@
    ========================================================================== */
 
 html {
-  color: #bd7bde;
+  mint-color: #46e5ab;
   font-size: 1em;
   line-height: 1.4;
 }
 
+colours {
+  purple-color: #bd7bde;
+  green-color: #09ac70;
+  pale-blue-color: #c0ddff;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -28,12 +68,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #c0ddff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #ffffff;
+  background: #deffc3;
   text-shadow: none;
 }
 
@@ -44,9 +84,9 @@ html {
 hr {
   display: block;
   height: 1px;
-  border: 0;
+  border: 1px;
+  margin: 1px 1px;
   border-top: 1px solid #ccc;
-  margin: 1em 0;
   padding: 0;
 }
 
@@ -70,8 +110,8 @@ video {
  */
 
 fieldset {
-  border: 1;
-  margin: 1;
+  border: 0;
+  margin: 0;
   padding: 0;
 }
 
