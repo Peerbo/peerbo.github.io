@@ -4,13 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
 :root {
-  --bg-color: #c8e2ff;
+  --bg-color: #dcfbff;
   /*Text colors*/
   --title-color: #6893de;
-  --subtitle-color: #6ca2ff;
-  --body-color: #737373;
+  --h2-color: #666666;
+  --h3-color: #7e7e7e;
+  --body-color: #8c8c8c;
   /*Nav bar for other pages colors*/
-  --navbar-color: #737373;
+  --navbar-color: #8c8c8c;
   --navbar-hover: #87baff;
 }
 
@@ -19,22 +20,38 @@ h1 { /*Main heading*/
   color: var(--title-color);
   font-family: 'Allura', cursive;
   margin: 0.67em;
+  text-align: center; /*Remove when fixed in index*/
 }
 
 h2 { /*Subheading*/
+  font-size: 1.75em;
+  color: var(--h2-color);
+  font-family: 'Pacifico', cursive;
+  text-align: center; /*Remove when fixed in index*/
+  margin-top: 0.2em;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  margin-bottom: 0.2em;
+}
+
+h3 {/*Sub-sub heading XD*/
   font-size: 1.5em;
-  color: var(--subtitle-color);
-  font-family: 'Italliano', cursive;
-  margin: 0.6em;
+  color: var(--h3-color);
+  font-family: 'Pacifico', monospace;
+  margin-top: 0.3em;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  margin-bottom: 0.2em;
 }
 
 body { /*Main text*/
   font-size: 1em;
   color: var(--body-color);
   font-family: 'Josefin Slab', monospace;
+  text-align: justify; /*Remove when fixed in index*/
   margin-top: 0.67em;
-  margin-right: 15em;
-  margin-left: 1em;
+  margin-right: 7.5em;
+  margin-left: 3em;
   margin-bottom: 0.67em;
   background-color: var(--bg-color);
 }
@@ -63,6 +80,8 @@ colours {
   purple-color: #bd7bde;
   green-color: #09ac70;
   pale-blue-color: #c0ddff;
+  cool-purple-ish-color: #c8e2ff;
+
 }
 /*
  * Remove text-shadow in selection highlight:
