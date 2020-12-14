@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Changed fonts and text ^^">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Added the Resume finally :purple_heart:" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +53,7 @@
       <workItem from="1607872479476" duration="1866000" />
       <workItem from="1607882503841" duration="700000" />
       <workItem from="1607883914119" duration="1369000" />
-      <workItem from="1607921667537" duration="2439000" />
+      <workItem from="1607921667537" duration="2782000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -129,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607887339659</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added the Resume finally :purple_heart:">
+      <created>1607924423362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607924423362</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +161,7 @@
     <MESSAGE value="Adjusted an intro msg for ppl who enter rn :purple_heart:" />
     <MESSAGE value="Started fixing the super-confusing ✨ main.css and normalize.css ✨" />
     <MESSAGE value="Changed fonts and text ^^" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed fonts and text ^^" />
+    <MESSAGE value="Added the Resume finally :purple_heart:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Resume finally :purple_heart:" />
   </component>
 </project>
