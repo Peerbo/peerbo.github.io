@@ -1,0 +1,132 @@
+/*Styling Sheet for About Page*/
+
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+/* Color Schemes */
+:root {
+  --bg-color:#fbfbfb;
+  --navbar-color: #ececec;
+  --navbar-hover:#c2b394;
+  --h1-color:#53b0bd;
+  --h2-color:#12646f;
+  --circle1-color:#92dccd;
+  --circle2-color:#dbe4cf;
+  --text-color: #aeaeae;
+}
+
+/* Headers and Body Style */
+h1{
+  position: absolute;
+  z-index: 1;
+  left: 180px;
+  top: 0;
+  font-size: 70px;
+  color: var(--h1-color);
+  font-family: 'Allura', cursive;
+  margin: 0.67em 0.67em 0.67em 1em;
+}
+
+body{
+  background-color: var(--bg-color);
+}
+
+/* Fading Image on Right */
+div,img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 125%;
+  width: 100%;
+}
+img {
+  -webkit-mask-image:-webkit-gradient(linear, right top, left top,
+  color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
+}
+
+/* Back Circles for Main Title?? (WIP)*/
+.big-circle {
+  position: relative;
+  z-index: -2;
+  left: 15px;
+  top: 15px;
+  background-color: var(--circle1-color);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.small-circle {
+  position: absolute;
+  z-index: -1;
+  left: 100px;
+  top: 70px;
+  background-color: var(--circle2-color);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Navigation Bar from Sneha */
+.nav-area li a {
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 7px 20px;
+  font-family: 'Pacifico', cursive;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: var(--bg-color);
+}
+.nav-area li a:hover{
+  background: var(--navbar-hover);
+  color: var(--navbar-color);
+}
+.skill-list li {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px;
+  font-size: 1.5em;
+  text-align: left;
+  list-style-type: none;
+  color: #254441; /* What's the use??*/
+}
+.content {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+}
+.nav-area {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-area li{
+  display: inline-block;
+  margin-top: -8px;
+}
+.skill-list {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0em;
+  margin: 0em 2em;
+  flex-wrap: wrap;
+}
