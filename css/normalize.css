@@ -21,7 +21,6 @@
   display: -o-flex;
   display: block;
   width: 100%;
-  height: 100%;
 }
 
 .about-pic {
@@ -51,6 +50,7 @@ iframe{
   overflow: hidden;
   width: 50em;
 }
+
 
 /**
  * 1. Correct the line height in all browsers.

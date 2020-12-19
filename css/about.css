@@ -1,5 +1,10 @@
 /* Fading Image for About Page */
-
+img {
+  height: 125%;
+  width: 99%;
+  margin-top: -8px;
+  position: absolute;
+}
 img { /* For PCs etc */
   -webkit-mask-image:-webkit-gradient(linear, right top, left top,
   color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));

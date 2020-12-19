@@ -44,74 +44,37 @@
   shape-outside: inset(250px 250px 250px 0);
 }
 
-/* Navigation Bar from Sneha */
-.nav-area li a {
-  color: var(--text-color);
-  text-decoration: none;
-  padding: 7px 20px;
-  font-family: 'Pacifico', cursive;
-  font-size: 13px;
-  text-transform: uppercase;
-  background: var(--bg-color);
-}
-.nav-area li a:hover{
-  background: var(--navbar-hover);
-  color: var(--navbar-color);
-}
-.skill-list li {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: column;
-  margin: 15px 0px;
-  font-size: 1.5em;
-  text-align: left;
-  list-style-type: none;
-  color: #254441; /* What's the use??*/
-}
-.content {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: column;
-}
-.nav-area {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: flex-end;
-}
-.nav-area li{
-  display: inline-block;
-  margin-top: -8px;
-}
-.skill-list {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: flex-start;
-  padding: 0em;
-  margin: 0em 2em;
-  flex-wrap: wrap;
+/* Navigation Bar */
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  background-color: var(--bg-color);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-/* For Better Position?? */
-div,img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: 'Pacifico', cursive;
+  text-transform: uppercase;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: var(--navbar-hover);
+  color: var(--navbar-color);
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: var(--navbar-hover);
+  color: var(--navbar-color);
 }
