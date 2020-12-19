@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="First Draft of Main Stuff :purple_heart:&#10;A lot more stuff still needs to be done tho XD">
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Fixing a few things, and moving the navbar down ^^">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +88,8 @@
       <workItem from="1608304314477" duration="12039000" />
       <workItem from="1608317319517" duration="9487000" />
       <workItem from="1608354659581" duration="18365000" />
-      <workItem from="1608387920209" duration="3876000" />
+      <workItem from="1608387920209" duration="4158000" />
+      <workItem from="1608392299434" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -220,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608380907239</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixing a few things, and moving the navbar down ^^">
+      <created>1608391910670</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608391910670</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixing a few things, and moving the navbar down ^^">
+      <created>1608392010703</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608392010703</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +266,7 @@
     <MESSAGE value="Added an About Page, tho I don't have the link yet :/" />
     <MESSAGE value="Added a Resume Page, tho same as before with main page :/" />
     <MESSAGE value="First Draft of Main Stuff :purple_heart:&#10;A lot more stuff still needs to be done tho XD" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Draft of Main Stuff :purple_heart:&#10;A lot more stuff still needs to be done tho XD" />
+    <MESSAGE value="Fixing a few things, and moving the navbar down ^^" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing a few things, and moving the navbar down ^^" />
   </component>
 </project>
