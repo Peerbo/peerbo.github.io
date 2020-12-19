@@ -17,16 +17,16 @@ h1{
   font-size: 70px;
   color: var(--h1-color);
   font-family: 'Allura', cursive;
-  margin-top: 0.67em;
-  margin-right: 0;
-  margin-left: 0.5em;
-  margin-bottom: 0.67em;
+  margin: 0.67em 0 0.67em 0.5em;
 }
 h2{
-  font-size: 30px;
+  font-size: 25px;
   color: var(--text-color);
   font-family: 'Allura', cursive;
-  margin: 0.67em 0.67em 0.67em 1em;
+  margin-top: 1em;
+  margin-right: 0.67em;
+  margin-left: 1em;
+  margin-bottom: 0.67em;
 }
 body{
   background-color: var(--bg-color);
@@ -252,7 +252,7 @@ textarea {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-  /* 1 */
+  /* 1 *
 }
 
 /*

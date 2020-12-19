@@ -21,7 +21,7 @@
   display: -o-flex;
   display: block;
   width: 100%;
-  height: 125%;
+  height: 100%;
 }
 
 .about-pic {
@@ -31,6 +31,25 @@
   display: -ms-flex;
   display: -o-flex;
   display: block;
+}
+
+/* Resume Stuff from Sneha */
+section{
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+}
+iframe{
+  border: 0em;
+  display: inherit;
+  height: 67em;
+  margin: 2em auto;
+  overflow: hidden;
+  width: 50em;
 }
 
 /**
