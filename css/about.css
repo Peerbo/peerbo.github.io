@@ -1,11 +1,5 @@
-/*Special Styling Sheet for About Page*/
+/* Fading Image for About Page */
 
-/* Font Margin */
-h2 {
-  margin: 0.67em 15em 0.67em 1em;
-}
-
-/* Fading Image on Right */
 img { /* For PCs etc */
   -webkit-mask-image:-webkit-gradient(linear, right top, left top,
   color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
