@@ -1,0 +1,35 @@
+/* Minor Changes for Phones in portrait mode */
+
+/* mainformat */
+.big-circle{
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+.small-circle {
+  left: 65px;
+  top: 47px;
+  height: 93.75px;
+  width: 93.75px;
+  border-radius: 50%;
+}
+
+/* fontstyle */
+h1{
+  font-size: 55px;
+}
+
+/* about */
+img {
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
+  color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
+}
+.blank-space {
+  margin-right: 0;
+}
+
+/* normalize */
+.header-article {
+  height: 145px;
+}
+

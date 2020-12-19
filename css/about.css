@@ -5,14 +5,12 @@ img {
   margin-top: -8px;
   position: absolute;
 }
-img { /* For PCs etc */
+img {
   -webkit-mask-image:-webkit-gradient(linear, right top, left top,
   color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
 }
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
-  /* For phones in portrait mode*/
-  img {
-    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
-    color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
-  }
+
+/* Textwrap for Fading Pic */
+.blank-space {
+  margin-right: 25em;
 }

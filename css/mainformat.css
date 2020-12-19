@@ -19,7 +19,7 @@
 .big-circle {
   background-color: var(--circle1-color);
   position: relative;
-  z-index: -2;
+  z-index: -1;
   left: 15px;
   top: 15px;
   height: 200px;
@@ -29,7 +29,6 @@
 }
 .small-circle {
   position: absolute;
-  z-index: -1;
   left: 100px;
   top: 70px;
   background-color: var(--circle2-color);
