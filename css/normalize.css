@@ -1,9 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
+/* Formatting Website to work on all browsers */
+/* For now, mostly all from Sneha */
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Main Headings Box */
+.header-article {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  width: 100%;
+  height: 225px;
+}
 
-/* Document
-   ========================================================================== */
+.article-box {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6*/
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: block;
+  width: 100%;
+  height: 125%;
+}
+
+.about-pic {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: block;
+}
 
 /**
  * 1. Correct the line height in all browsers.

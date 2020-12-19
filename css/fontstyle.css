@@ -1,77 +1,139 @@
+/* Fonts Used for each Page */
+
 /*Font Styles */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
+/* Color Schemes */
 :root {
-  --bg-color: #dcfbff;
-  /*Text colors*/
-  --title-color: #6893de;
-  --h2-color: #666666;
-  --h3-color: #7e7e7e;
-  --body-color: #8c8c8c;
-  /*Nav bar for other pages colors*/
-  --navbar-color: #8c8c8c;
-  --navbar-hover: #87baff;
+  --bg-color:#fbfbfb;
+  --h1-color:#53b0bd;
+  --h2-color:#12646f;
+  --text-color: #aeaeae;
 }
 
-h1 { /*Main heading*/
-  font-size: 2em;
-  color: var(--title-color);
+h1{
+  font-size: 70px;
+  color: var(--h1-color);
   font-family: 'Allura', cursive;
-  margin: 0.67em;
-  text-align: center; /*Remove when fixed in index*/
-}
-
-h2 { /*Subheading*/
-  font-size: 1.75em;
-  color: var(--h2-color);
-  font-family: 'Pacifico', cursive;
-  text-align: center; /*Remove when fixed in index*/
-  margin-top: 0.2em;
-  margin-right: 0.6em;
-  margin-left: 0.6em;
-  margin-bottom: 0.2em;
-}
-
-h3 {/*Sub-sub heading XD*/
-  font-size: 1.5em;
-  color: var(--h3-color);
-  font-family: 'Pacifico', monospace;
-  margin-top: 0.3em;
-  margin-right: 0.6em;
-  margin-left: 0.6em;
-  margin-bottom: 0.2em;
-}
-
-body { /*Main text*/
-  font-size: 1em;
-  color: var(--body-color);
-  font-family: 'Josefin Slab', monospace;
-  text-align: justify; /*Remove when fixed in index*/
   margin-top: 0.67em;
-  margin-right: 7.5em;
-  margin-left: 3em;
+  margin-right: 0;
+  margin-left: 0.5em;
   margin-bottom: 0.67em;
+}
+h2{
+  font-size: 30px;
+  color: var(--text-color);
+  font-family: 'Allura', cursive;
+  margin: 0.67em 0.67em 0.67em 1em;
+}
+body{
   background-color: var(--bg-color);
 }
 
-/* Ask Sasha to explain!!!
 
-div.resume {
-  margin-left: 25px;
-  padding: 1px 5px;
-  height: 100%;
+/*
+:root {
+  --bg-color:#fbfbfb;
+  --navbar-color-1: #ececec;
+  --navbar-color-2: #777777;
+  --navbar-hover:#c2b394;
+  --h1-color:#53b0bd;
+  --title-color: #65d8e5;
+  --h2-color:#12646f;
+  --h3-color: #67d7e5;
+  --circle1-color:#92dccd;
+  --circle2-color:#dbe4cf;
+  --beach-color: #b8e0e0;
+}
+.update-box {
+  overflow: auto;
+  border-radius: 25px;
+  width: 500px;
+  height: 500px;
+  background: var(--beach-color);
+  float: left;
+  left: -5px;
+  top: 15px;
+  padding: 5px;
+  font-size: 15px;
+  color: var(--navbar-color-2);
+  font-family: 'Josefin Slab', monospace;
+}
+.update-box li {
+
+}
+.update-box-title {
+  overflow:hidden;
+  width:500px;
+  height:50px;
+  background: var(--title-color);
+  float:left;
+  padding: 5px;
+  font-size: 40px;
+  color: var(--navbar-color-2);
+  font-family: 'Allura', cursive;
+  text-align: center;
+}
+*/
+rec-colour-schemes{
+  /*Walk on the Beach*/
+  sky:#4a73b1;
+  sea:#92dccd;
+  beach:#dbe4cf;
+  wave:#fffefc;
+  sand:#ffe9ca;
+
+  /*Sunset Seaside*/
+  sky-1:#f9e1e0;
+  sky-2:#feadb9;
+  sky-3:#bc85a3;
+  sea-1:#9799ba;
+  sea-2:#bc84a3;
+
+  /*Sandy Seashore*/
+  sea:#5ba1b0;
+  beach:#acd1d1;
+  wave:#dce2e1;
+  shell:#d8caae;
+  sand:#b18f69;
+
+  /*Santorini Island*/
+  base:#fbfbfb;
+  shade:#ececec;
+  path:#c2b394;
+  door:#53b0bd;
+  window:#12646f;
+
+  /*Coconut Trees in the Sunset*/
+  tree:#240915;
+  sky-1:#5d5485;
+  sky-2:#d96784;
+  sky-3:#ed948b;
+  sun:#fdd892;
+
 }
 
-div.resume > div {
-  margin-left: 25px;
-} */
+
+
+
+  /* Ask Sasha to explain!!!
+
+  div.resume {
+    margin-left: 25px;
+    padding: 1px 5px;
+    height: 100%;
+  }
+
+  div.resume > div {
+    margin-left: 25px;
+  } */
 
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/* fontstyle.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -81,20 +143,13 @@ div.resume > div {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+/*
 html {
   mint-color: #46e5ab;
   font-size: 1em;
   line-height: 1.4;
 }
 
-colours {
-  purple-color: #bd7bde;
-  green-color: #09ac70;
-  pale-blue-color: #c0ddff;
-  cool-purple-ish-color: #c8e2ff;
-
-}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -104,7 +159,7 @@ colours {
  *
  * Customize the background color to match your design.
  */
-
+/*
 ::-moz-selection {
   background: #c0ddff;
   text-shadow: none;
@@ -118,7 +173,7 @@ colours {
 /*
  * A better looking default horizontal rule
  */
-
+/*
 hr {
   display: block;
   height: 1px;
@@ -133,7 +188,7 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
+/*
 audio,
 canvas,
 iframe,
@@ -146,7 +201,7 @@ video {
 /*
  * Remove default fieldset styles.
  */
-
+/*
 fieldset {
   border: 0;
   margin: 0;
@@ -156,7 +211,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-
+/*
 textarea {
   resize: vertical;
 }
@@ -172,7 +227,7 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
-
+/*
 .hidden,
 [hidden] {
   display: none !important;
@@ -186,7 +241,7 @@ textarea {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-
+/*
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -205,7 +260,7 @@ textarea {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-
+/*
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
   clip: auto;
@@ -220,7 +275,7 @@ textarea {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-
+/*
 .invisible {
   visibility: hidden;
 }
@@ -236,7 +291,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
+/*
 .clearfix::before,
 .clearfix::after {
   content: " ";
