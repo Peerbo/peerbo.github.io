@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Updated for better phone experience 📱✨">
-      <change afterPath="$PROJECT_DIR$/css/darkmode.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/in-construction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
-    </list>
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Dark Mode main draft added :moon:✨&#10;Fixed fonts as well ^^" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +88,7 @@
       <workItem from="1608387920209" duration="4158000" />
       <workItem from="1608392299434" duration="2907000" />
       <workItem from="1608396232254" duration="8352000" />
-      <workItem from="1608441959714" duration="12421000" />
+      <workItem from="1608441959714" duration="12746000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -249,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608392736089</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Dark Mode main draft added :moon:✨&#10;Fixed fonts as well ^^">
+      <created>1608490106262</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608490106262</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +281,7 @@
     <MESSAGE value="First Draft of Main Stuff :purple_heart:&#10;A lot more stuff still needs to be done tho XD" />
     <MESSAGE value="Fixing a few things, and moving the navbar down ^^" />
     <MESSAGE value="Fixed the Navbar ✨" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the Navbar ✨" />
+    <MESSAGE value="Dark Mode main draft added :moon:✨&#10;Fixed fonts as well ^^" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dark Mode main draft added :moon:✨&#10;Fixed fonts as well ^^" />
   </component>
 </project>
