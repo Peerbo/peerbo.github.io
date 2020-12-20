@@ -33,3 +33,13 @@ img {
   height: 145px;
 }
 
+.top-picture {
+  position: relative;
+  z-index: -1;
+  left: 0px;
+  top: 0px;
+  height: 100vw;
+  width: 100vw;
+  margin: 0;
+}
+
