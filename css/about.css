@@ -1,3 +1,5 @@
+/* About Page Specifics */
+
 /* Fading Image for About Page */
 img {
   height: 125%;
@@ -12,24 +14,5 @@ img {
 
 /* Textwrap for Fading Pic */
 .blank-space {
-  margin-right: 25em;
+  margin-right: 40vw;
 }
-
-
-.article-box{
-  background: white;
-}
-
-.header-article{
-  background: white;
-}
-
-.top-picture {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: block;
-}
-

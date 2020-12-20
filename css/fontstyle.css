@@ -1,13 +1,12 @@
 /* Fonts Used for each Page */
 
 /*Font Styles */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:wght@450&display=swap');
 
-/* Color Schemes */
+/* Color Scheme */
 :root {
-  --bg-color:#fbfbfb;
   --h1-color:#53b0bd;
   --h2-color:#12646f;
   --text-color: #aeaeae;
@@ -22,11 +21,11 @@ h1{
 h2{
   font-size: 25px;
   color: var(--text-color);
-  font-family: 'Allura', cursive;
-  margin-top: 1em;
-  margin-right: 0.67em;
-  margin-left: 0.67em;
-  margin-bottom: 0.67em;
+  /*font-family: 'Josefin Slab', serif;*/
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  margin: 1em 0.67em 0.67em;
+  padding-bottom: 45px;
 }
 body{
   background-color: var(--bg-color);
@@ -113,6 +112,12 @@ rec-colour-schemes{
   sky-3:#ed948b;
   sun:#fdd892;
 
+  /* Sunset Sky */
+  sun:#ffe577;
+  sky1:#fec051;
+  sky2:#ff8967;
+  sky3:#fd6051;
+  sky4:#392033;
 }
 
 

@@ -1,0 +1,14 @@
+/* For dark mode */
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #5d5485;
+    pos-h1-color: #ffc960;
+    --h1-color: #e3ad54;
+    --text-color: #fdd892;
+    --navbar-color: #ffe8cf;
+    --navbar-hover: #dc696e;
+    --circle1-color: #d96784;
+    --circle2-color: #ed948b;
+  }
+}

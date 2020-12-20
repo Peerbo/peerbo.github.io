@@ -21,8 +21,9 @@ h1{
 
 /* about */
 img {
+  margin-left: -8px;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
-  color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
+  color-stop(0%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,0)));
 }
 .blank-space {
   margin-right: 0;
@@ -30,10 +31,14 @@ img {
 
 /* normalize */
 .header-article {
-  height: 145px;
+  width: 100vw;
+  height: fit-content;
 }
-
-.top-picture {
+.article-box {
+  width: 100vw;
+  height: fit-content;
+}
+.about-pic {
   position: relative;
   z-index: -1;
   left: 0px;

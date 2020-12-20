@@ -17,13 +17,18 @@
   <link rel="stylesheet" href="css/fontstyle.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" media="screen and (max-device-width: 480px)
-        and (orientation: portrait)" href="css/phonescreen.css">
+    <!-- For phones -->
+  <link rel="stylesheet" media="screen and (orientation: portrait)"
+        href="css/phonescreen.css">
+    <!-- For dark mode -->
+  <link rel="stylesheet" href="css/darkmode.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-
+<div class="about-pic">
+  <img src="img/Image%2010.jpg" alt="Temporary Picture">
+</div>
 <div class="navbar">
   <a href="https://peerbo.github.io/">Home</a>
   <a href="about" class="active"> About</a>
@@ -32,17 +37,13 @@
   <a href=""> Hobbies</a>
   <a href="">Contact</a>
 </div>
-<div class="top-picture">
-  <img src="img/temp.png" alt="Temporary Picture">
-</div>
-<div style="display: block">
+<article class="header-article">
   <div class="big-circle">
     <div class="small-circle"></div>
   </div>
   <h1>About Me</h1>
-</div>
-
-<div style="height: 400px" >
+</article>
+<div class="article-box">
   <div class="blank-space">
     <h2> The weird blue fade on the side is only temporary;
       It will be replaced soon with another picture. Also, just as the main page, this

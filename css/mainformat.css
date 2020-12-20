@@ -5,14 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
-/* Color Schemes */
+/* Color Scheme */
 :root {
   --bg-color:#fbfbfb;
   --navbar-color: #ececec;
   --navbar-hover:#c2b394;
   --circle1-color:#92dccd;
   --circle2-color:#dbe4cf;
-  --text-color: #aeaeae;
 }
 
 /* Background Circles */
@@ -38,8 +37,8 @@
 }
 
 /* Navigation Bar */
-/* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
+  /* Navbar Position */
   background-color: var(--bg-color);
   overflow: hidden;
   position: fixed;
@@ -48,9 +47,8 @@
   border-top: 1px solid var(--navbar-hover);
   margin-left: -8px;
 }
-
-/* Style the links inside the navigation bar */
 .navbar a {
+  /* Link Style */
   float: left;
   display: block;
   color: var(--text-color);
@@ -61,15 +59,13 @@
   font-family: 'Pacifico', cursive;
   text-transform: uppercase;
 }
-
-/* Change the color of links on hover */
 .navbar a:hover {
+  /* Hover Links */
   background-color: var(--navbar-hover);
   color: var(--navbar-color);
 }
-
-/* Add a color to the active/current link */
 .navbar a.active {
+  /* Active Links */
   background-color: var(--navbar-hover);
   color: var(--navbar-color);
 }
