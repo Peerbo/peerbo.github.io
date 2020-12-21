@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Big Update with all the pages being 'ready' finally :purple_heart:✨">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-construction.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Changing that last page name XD">
+      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/darkmode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/darkmode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +94,7 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="30327000" />
+      <workItem from="1608535544587" duration="30671000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -346,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608578937528</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Changing that last page name XD">
+      <created>1608580747090</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608580747090</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +367,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix ugly ass font g" />
     <MESSAGE value="fixed font" />
     <MESSAGE value="✨ fixed font ✨&#10;&#10;:purple_heart:" />
     <MESSAGE value="Add link to a video" />
@@ -390,6 +391,7 @@
     <MESSAGE value="Few more adjustments for phone navbar ^^" />
     <MESSAGE value="Fixed the temporary list of available pages" />
     <MESSAGE value="Big Update with all the pages being 'ready' finally :purple_heart:✨" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big Update with all the pages being 'ready' finally :purple_heart:✨" />
+    <MESSAGE value="Changing that last page name XD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing that last page name XD" />
   </component>
 </project>

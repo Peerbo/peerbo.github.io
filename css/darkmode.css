@@ -1,5 +1,15 @@
 /* For dark mode */
 
+
+
+    /* UPDATE FOR 'UNDER CONSTRUCTION' ANIMATION */
+
+
+
+
+
+
+
 @media(prefers-color-scheme: dark) {
   :root {
     --bg-color: #5d5485;

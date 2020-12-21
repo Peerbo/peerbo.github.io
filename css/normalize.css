@@ -13,13 +13,13 @@
 /* Main Headings Box */
 .header-article {
   display: flex;
-  width: 90vw;
+  width: 98vw;
   height: fit-content;
   padding-bottom: 10px;
 }
 .article-box {
   display: block;
-  width: 90vw;
+  width: 98vw;
   height: fit-content;
 }
 /* About Page Specifics */
