@@ -1,5 +1,15 @@
 /* Minor Changes for Phones in portrait mode */
 
+
+
+    /* FIX SCROLLBAR FOR ABOUT */
+
+
+
+
+
+
+
 /* mainformat */
 .big-circle{
   height: 125px;
@@ -14,12 +24,34 @@
   border-radius: 50%;
 }
 
+    /* Hide all Except Home */
+.navbar a:not(:first-child) {display: none;}
+.navbar a.icon {
+  float: right;
+  display: block;
+}
+    /* "Responsive" Class Added */
+.navbar.responsive a.icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.navbar.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+
 /* fontstyle */
 h1{
   font-size: 55px;
 }
 
 /* about */
+img {
+  width: 97vw;
+}
 img {
   margin-left: -8px;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
@@ -41,10 +73,10 @@ img {
 .about-pic {
   position: relative;
   z-index: -1;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   height: 100vw;
-  width: 100vw;
+  width: 97vw;
   margin: 0;
 }
 
