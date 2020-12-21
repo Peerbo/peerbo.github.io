@@ -1,5 +1,14 @@
 /* Main Format of each Page */
 
+
+/* BACKGROUND IMAGE FIX */
+/* MAKE NAVBAR RESPONSIVE FOR PHONE */
+
+
+
+
+
+
 /* Font Styles */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
@@ -7,14 +16,37 @@
 
 /* Color Scheme */
 :root {
-  --bg-color:#fbfbfb;
-  --navbar-color: #ececec;
-  --navbar-hover:#c2b394;
+  --bg-color: #fbfbfb;
+  sand2: #ececec;
+  sand: #c2b394;
+  --navbar-color: #808080; /* potential */
+  --navbar-hover: #e7e4d5;
   --circle1-color:#92dccd;
   --circle2-color:#dbe4cf;
+  cool-water: #b6dde8;
 }
 
-/* Background Circles */
+/* Page Background */
+body {
+  background-color: var(--bg-color);
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-left: 1px solid var(--navbar-hover);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--circle1-color) ;
+  border-radius: 6px;
+  border: 3px solid var(--circle1-color);
+}
+
+/* Circles */
 .big-circle {
   background-color: var(--circle1-color);
   position: relative;

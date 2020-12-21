@@ -31,11 +31,11 @@ img {
 
 /* normalize */
 .header-article {
-  width: 100vw;
+  width: 98vw;
   height: fit-content;
 }
 .article-box {
-  width: 100vw;
+  width: 98vw;
   height: fit-content;
 }
 .about-pic {

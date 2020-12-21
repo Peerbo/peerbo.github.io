@@ -1,9 +1,17 @@
 /* About Page Specifics */
 
+
+/* FIX LANDSCAPE FOR PHONE */
+/* FIX BACKGROUND */
+
+
+
+
+
 /* Fading Image for About Page */
 img {
   height: 125%;
-  width: 99%;
+  width: 98vw;
   margin-top: -8px;
   position: absolute;
 }
