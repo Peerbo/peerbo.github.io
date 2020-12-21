@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Fixed the phone navigation bar:purple_heart:">
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="12333000" />
+      <workItem from="1608535544587" duration="12629000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -298,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608561513328</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed the phone navigation bar:purple_heart:">
+      <created>1608561625532</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1608561625532</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
