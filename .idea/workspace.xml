@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Fixed the temporary list of available pages">
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Big Update with all the pages being 'ready' finally :purple_heart:✨">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in-construction.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-construction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-construction.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
@@ -101,7 +99,7 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="28597000" />
+      <workItem from="1608535544587" duration="30327000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -341,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608563706846</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Big Update with all the pages being 'ready' finally :purple_heart:✨">
+      <created>1608578937527</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1608578937528</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +365,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update css" />
     <MESSAGE value="Fix ugly ass font g" />
     <MESSAGE value="fixed font" />
     <MESSAGE value="✨ fixed font ✨&#10;&#10;:purple_heart:" />
@@ -385,6 +389,7 @@
     <MESSAGE value="Just a little something I forgot XD" />
     <MESSAGE value="Few more adjustments for phone navbar ^^" />
     <MESSAGE value="Fixed the temporary list of available pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the temporary list of available pages" />
+    <MESSAGE value="Big Update with all the pages being 'ready' finally :purple_heart:✨" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big Update with all the pages being 'ready' finally :purple_heart:✨" />
   </component>
 </project>
