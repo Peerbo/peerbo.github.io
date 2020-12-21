@@ -13,6 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://www.transparenttextures.com/patterns/arches.png');
 
 /* Color Scheme */
 :root {
@@ -29,7 +30,7 @@
 /* Page Background */
 body {
   background-color: var(--bg-color);
-  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  background-image: url("img/arches.png");
 }
 
 /* Scrollbar */
