@@ -1,4 +1,4 @@
-/* Minor Changes for Phones in portrait mode */
+/* Adjustments for Phones in portrait mode */
 
 
 
@@ -9,8 +9,14 @@
 
 
 
-
-/* mainformat */
+/* Main Title */
+.header-article {
+  width: 98vw;
+}
+h1{
+  font-size: 55px;
+}
+    /* Circles */
 .big-circle{
   height: 125px;
   width: 125px;
@@ -24,6 +30,12 @@
   border-radius: 50%;
 }
 
+/* Main Body */
+.article-box {
+  width: 98vw;
+}
+
+/* Navigation Bar */
     /* Hide all Except Home */
 .navbar a:not(:first-child) {display: none;}
 .navbar a.icon {
@@ -41,14 +53,14 @@
   display: block;
   text-align: left;
 }
-
-
-/* fontstyle */
-h1{
-  font-size: 55px;
+    /* Design Adjustments */
+.navbar {
+  background-color: var(--navbar-hover);
+  color: var(--navbar-color);
 }
 
-/* about */
+
+/* About Fading Picture */
 img {
   width: 97vw;
 }
@@ -59,16 +71,6 @@ img {
 }
 .blank-space {
   margin-right: 0;
-}
-
-/* normalize */
-.header-article {
-  width: 98vw;
-  height: fit-content;
-}
-.article-box {
-  width: 98vw;
-  height: fit-content;
 }
 .about-pic {
   position: relative;
