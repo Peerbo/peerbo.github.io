@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Few more adjustments for phone navbar ^^">
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Fixed the temporary list of available pages">
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in-construction.html" beforeDir="false" afterPath="$PROJECT_DIR$/in-construction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -34,16 +42,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\js" />
       <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\img" />
       <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\doc" />
-      <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io" />
@@ -93,7 +101,7 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="14228000" />
+      <workItem from="1608535544587" duration="28597000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -319,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608562904762</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Few more adjustments for phone navbar ^^">
+      <created>1608563544865</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608563544865</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fixed the temporary list of available pages">
+      <created>1608563706846</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608563706846</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +360,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add HTML boilerplate" />
     <MESSAGE value="update css" />
     <MESSAGE value="Fix ugly ass font g" />
     <MESSAGE value="fixed font" />
@@ -363,6 +384,7 @@
     <MESSAGE value="Fixed the phone navigation bar:purple_heart:" />
     <MESSAGE value="Just a little something I forgot XD" />
     <MESSAGE value="Few more adjustments for phone navbar ^^" />
-    <option name="LAST_COMMIT_MESSAGE" value="Few more adjustments for phone navbar ^^" />
+    <MESSAGE value="Fixed the temporary list of available pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the temporary list of available pages" />
   </component>
 </project>
