@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Changed the scrollbar XD&#10;Also added in a cute background texture✨" />
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Attempt #2 cuz for some reason nothing worked with this first commit :/">
+      <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,7 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="9421000" />
+      <workItem from="1608535544587" duration="9736000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -260,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608553116960</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Attempt #2 cuz for some reason nothing worked with this first commit :/">
+      <created>1608553362460</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1608553362460</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +308,7 @@
     <MESSAGE value="Fixed the Navbar ✨" />
     <MESSAGE value="Dark Mode main draft added :moon:✨&#10;Fixed fonts as well ^^" />
     <MESSAGE value="Changed the scrollbar XD&#10;Also added in a cute background texture✨" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the scrollbar XD&#10;Also added in a cute background texture✨" />
+    <MESSAGE value="Attempt #2 cuz for some reason nothing worked with this first commit :/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempt #2 cuz for some reason nothing worked with this first commit :/" />
   </component>
 </project>
