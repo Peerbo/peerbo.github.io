@@ -50,37 +50,8 @@ h2{
   --circle1-color:#92dccd;
   --circle2-color:#dbe4cf;
   --beach-color: #b8e0e0;
-}
-.update-box {
-  overflow: auto;
-  border-radius: 25px;
-  width: 500px;
-  height: 500px;
-  background: var(--beach-color);
-  float: left;
-  left: -5px;
-  top: 15px;
-  padding: 5px;
-  font-size: 15px;
-  color: var(--navbar-color-2);
-  font-family: 'Josefin Slab', monospace;
-}
-.update-box li {
+ */
 
-}
-.update-box-title {
-  overflow:hidden;
-  width:500px;
-  height:50px;
-  background: var(--title-color);
-  float:left;
-  padding: 5px;
-  font-size: 40px;
-  color: var(--navbar-color-2);
-  font-family: 'Allura', cursive;
-  text-align: center;
-}
-*/
 rec-colour-schemes{
   /*Walk on the Beach*/
   sky:#4a73b1;

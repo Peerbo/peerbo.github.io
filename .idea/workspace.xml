@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Just a little something I forgot XD">
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Few more adjustments for phone navbar ^^">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontstyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="13585000" />
+      <workItem from="1608535544587" duration="14228000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -312,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608561923719</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Few more adjustments for phone navbar ^^">
+      <created>1608562904762</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1608562904762</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +362,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Fixed the phone navigation bar:purple_heart:" />
     <MESSAGE value="Just a little something I forgot XD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just a little something I forgot XD" />
+    <MESSAGE value="Few more adjustments for phone navbar ^^" />
+    <option name="LAST_COMMIT_MESSAGE" value="Few more adjustments for phone navbar ^^" />
   </component>
 </project>
