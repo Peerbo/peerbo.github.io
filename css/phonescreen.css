@@ -3,6 +3,7 @@
 
 
     /* FIX SCROLLBAR FOR ABOUT */
+    /* FIX UPDATE BAR FOR HOMEPAGE (ALREADY DOWN HERE) */
     /* GET ACTIVE TO SHOW RATHER THAN JUST HOME */
 
 
@@ -11,13 +12,12 @@
 
 
 /* Main Title */
-.header-article {
-  width: 98vw;
-}
 h1{
   font-size: 55px;
 }
-    /* Circles */
+.header-article {
+  width: 98vw;
+}
 .big-circle{
   height: 125px;
   width: 125px;
@@ -58,6 +58,23 @@ h1{
 .navbar {
   background-color: var(--navbar-hover);
   color: var(--navbar-color);
+}
+
+
+/* Homepage Update Bar */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
 

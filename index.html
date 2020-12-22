@@ -2,8 +2,9 @@
 
 
 
-    <!-- PUT UPDATE BOX -->
-    <!-- ANIMATION FOR UPDATE BOX -->
+    <!-- FILL OUT UPDATE BOX -->
+    <!-- FIX UPDATE BOX FOR PHONE -->
+    <!-- MAKE UPDATE BAR TITLE FIXED -->
 
 
 
@@ -31,6 +32,7 @@
   <!-- Style Sheets -->
   <link rel="stylesheet" href="css/mainformat.css">
   <link rel="stylesheet" href="css/fontstyle.css">
+  <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/normalize.css">
     <!-- For phones -->
   <link rel="stylesheet" media="screen and (max-width: 600px)
@@ -41,154 +43,181 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-<div class="navbar" id="myNavbar">
-  <a href="https://peerbo.github.io/" class="active">Home</a>
-  <a href="about"> About</a>
-  <a href="future"> Future</a>
-  <a href="resume"> Resume</a>
-  <a href="hobbies"> Hobbies</a>
-  <a href="contact">Contact</a>
-  <a href="animations">'Under Construction'</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-<article class="header-article">
-    <div class="big-circle">
-      <div class="small-circle"></div>
-    </div>
-    <h1>Ello ^^</h1>
-  </article>
-  <article class="article-box">
-    <h2>
-      Welcome to my website. <br>
-      It is still very much in construction, as you can see. I want to finish the
-      navigation bar; Currently, some of the links are not working, but I am slowly
-      creating all of them. For now, those are available:
-      <ul>
-        <li>The About Page, though it is still empty right now </li>
-        <li>My Resume Page, which for now has a basic replica of my resume</li>
-      </ul>
-      I fixed the fonts but I am still working on other aspects such as the
-      colour schemes lol. I now have a dark mode (I hope you guys like
-      the colours - kind of inspired by sunsets a bit I guess lol)
-      <br> The website is also almost perfect on the phone. Lastly, I have an
-      interesting idea for a sort of project which would become very useless the
-      more I work on the site but let's try.
-      <br>
-      <br>
-      Dec 21, 2020
-      <br> Quick update, I actually finished the project, and now all the pages
-      "work", as in they're present but show the same thing for now lol. But still,
-      I love the little surprise so I added an extra part in the navigation bar
-      just for it, especially for later when all the pages will be done. Also, this
-      project currently does not support dark mode, atleast the main part of it.
-      <br>
-      Furthermore, the navigation bar right now only has what I think I will add so this too
-      will probably be updated as I work more and more on this website ^^
-      <br>
-      <br>
-      But for now, I can say that I am slowly advancing towards getting the perfect
-      design. So, enjoy ^^
-      <br>
-    </h2>
-  </article>
-
-
-  <!--div class="update-box-title">Update Box</div>
-  <div class="update-box">
-    This is for all my updates.
-    Let's hope this scroll bar does work.
-    I don't think I wrote enough but whatev
-  </div-->
-
-  <!-- For now, break lines with <br/> -->
-  <!--p>
-      My name is Kerim.<br/>
-      I am a 20yr old guy enrolled in McGill University for a BCom Major in
-      Entrepreneurship and Retail Management. <br/>
-      I am originally from Mauritius, which is a small island in the Indian Ocean.
-      So, for now, there is only my resume here because I have not been able
-      to write anything down as much with COVID-19 and the Fall semester
-      adjustment for assignments. However, rest assured that this website will
-      be developed further in the coming weeks.
-    <h2>
-      Resume
-    </h2>
-    <h3>
-      Experience:
-    </h3>
-    Auditing Intern, BDO Mauritius <br/>
-    Summer 2019 <br/>
-      - Received daily reports and supporting documentation for routine
-    audits and promptly reported any discrepancies for further review <br/>
-      - Verified calculations to minimize accounting errors and keep records
-    compliant with company standards <br/>
-      - Edited schedules and gathered data for the auditing managers,
-    saving time for the whole team <br/>
-    <br/>
-
-    Human Resources Manager, JA Mini Company Competition <br/>
-    Jan – Aug 2017 <br/>
-    - Recruited and supervised workers to help with production and
-    distribution of our products <br/>
-    - Dealt with disagreements between 2 managers, resulting in an
-    increase in productivity for the whole group <br/>
-    <br/>
-
-    Team Leader, Omnicane Awards Mauritius <br/>
-    Jan - Jul 2017 <br/>
-    - Managed a team of 5 students to create a report relating to the
-    welfare state of Mauritius <br/>
-    - Interviewed around 10 individuals to get more data relating to the
-    topic
-
-    <h3>
-      Education:
-    </h3>
-    McGill University, 2019-2022E <br/>
-    Bachelor of Commerce: Major in Entrepreneurship and Retail Management <br/>
-    GPA: 3.81
-
-    <h3>
-      Awards:
-    </h3>
-    - University Institutional Bursary (2019) <br/>
-    - Second place on a nationwide essay writing competition (2016)
-
-    <h3>
-      Skills:
-    </h3>
-    Microsoft Office Suite <br/>
-    Business Analysis, Accounting & Finance <br/>
-    Python, HTML, CSS, JavaScript <br/>
-    <br/>
-
-    Communication: Fluent English, French, and Mauritian Creole <br/>
-
-    Interests: Cooking, baking, reading, creative writing,
-    drawing, swimming, ballroom dancing
-  </p-->
-
-<!--
-  <div class="resume">
-    <div>
-      No idea how to do that??
-    </div>
-    <div>
-      No idea how to do that??
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="mainhd">Deep in <br>the sea... <br> of updates</div>
+    <!--22/12/2020--><div class="date">
+      <button class="datebtn">
+        <div class="txt">Dec 22, 2020</div>
+      </button>
+      <div class="overlay">
+        <div class="updates">
+          <div class="hd"> Homepage</div>
+          <div class="txt">
+            I was finally able to add in this update box, and I could not be more
+            proud of myself. That's because I actually did this mostly by myself,
+            as in I took some parts of code from different styles I wanted to have
+             (the transitions for example), but then adapted them to fit what I was
+            doing.
+            <br>
+            <br>Now, here we are with this amazing sliding update box.
+          </div>
+          <div class="txt">
+            However, I have to say that this bar is actually still lacking a lot in
+            terms of content because I literally just created it. I will be filling
+            in for the past days as I keep working on the website.
+            <br>Furthermore, this bar is currently only for PCs and will 100% be weird
+            on phone screens. Just as the updates, give me some time and I will fix
+            this. I'll also try and find for a better sea pun for that title lol.
+            <br>
+            <br>For now, hope you like this little update sidebar ^^
+          </div>
+      </div>
     </div>
   </div>
--->
+    <!--21/12/2020--><div class="date">
+      <button class="datebtn">
+        <div class="txt">Dec 21, 2020</div>
+      </button>
+      <div class="overlay">
+        <div class="updates">
+          <div class="hd">
+            Sorry...
+          </div>
+          <div class="txt">
+            Looks like I'll be updating this later.
+            <br>Thanks for checking it though ^^
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--20/12/2020--><div class="date">
+      <button class="datebtn">
+        <div class="txt">Dec 20, 2020</div>
+      </button>
+      <div class="overlay">
+        <div class="updates">
+          <div class="hd">
+            Sorry...
+          </div>
+          <div class="txt">
+            Looks like I'll be updating this later.
+            <br>Thanks for checking it though ^^
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--Template--><div class="date">
+      <button class="datebtn">
+        <div class="txt"> </div>
+      </button>
+      <div class="overlay">
+        <div class="updates">
+          <div class="hd">
+            TEMPLATE FOR DATES
+          </div>
+          <div class="txt">
+            Surprise XD
+            <br> It's an empty thing that I'll be using later to make it
+            easier for me to add in new updates lol.
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fill-up text for updates??
+        Welcome to my website. <br>
+        It is still very much in construction, as you can see. I want to finish the
+        navigation bar; Currently, some of the links are not working, but I am slowly
+        creating all of them. For now, those are available:
+        <ul>
+          <li>The About Page, though it is still empty right now </li>
+          <li>My Resume Page, which for now has a basic replica of my resume</li>
+        </ul>
+        I fixed the fonts but I am still working on other aspects such as the
+        colour schemes lol. I now have a dark mode (I hope you guys like
+        the colours - kind of inspired by sunsets a bit I guess lol)
+        <br> The website is also almost perfect on the phone. Lastly, I have an
+        interesting idea for a sort of project which would become very useless the
+        more I work on the site but let's try.
+        <br>
+        <br>
+        Dec 21, 2020
+        <br> Quick update, I actually finished the project, and now all the pages
+        "work", as in they're present but show the same thing for now lol. But still,
+        I love the little surprise so I added an extra part in the navigation bar
+        just for it, especially for later when all the pages will be done. Also, this
+        project currently does not support dark mode, atleast the main part of it.
+        <br>
+        Furthermore, the navigation bar right now only has what I think I will add so this too
+        will probably be updated as I work more and more on this website ^^
+        <br>
+        <br>
+        But for now, I can say that I am slowly advancing towards getting the perfect
+        design. So, enjoy ^^
+        <br-->
+  <div id="main">
+    <div class="navbar" id="myNavbar">
+      <a href="https://peerbo.github.io/" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="future.html">Future</a>
+      <a href="resume.html">Resume</a>
+      <a href="hobbies.html">Hobbies</a>
+      <a href="contact.html">Contact</a>
+      <a href="animations.html">'Under Construction'</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <article class="header-article" id="headArticle">
+      <div class="big-circle">
+        <div class="small-circle"></div>
+      </div>
+      <h1>Ello ^^</h1>
+    </article>
+    <article class="article-box" id="boxArticle">
+      <h2 style="text-align: end; padding-bottom: 0;">
+        December 22, 2020
+      </h2>
+      <h2>
+        As I am writing this, I am in quarantine in a hotel in my home country
+        for two weeks because I wanted to go back for winter break. This is a
+        mandatory procedure for anyone coming in, but I knew I would be very
+        bored throughout that time. In comes a few of my friends who suggested
+        the idea of creating a website (mostly by showing me theirs lol).
+        <br>
+        <br>Having nothing else to do, I actually went through with this idea.
+        <br>Until now, this has been an awesome experience, and I hope I'll be
+        able to keep on improving this website even further until it becomes
+        perfect -for me at least. In case people would be interested in the
+        future, this <span onclick="openNav()" style="color: var(--circle1-color);">update box</span>
+        has all of my past improvements on this site.
+        <br>
+        <br>However, all I want to say right now is thanks so much Sneha and
+        Sasha, you guys rock ^^
+        <br>In case anyone visiting might want to see their websites, the links
+        will be in my <a href="contact.html" style="color: var(--circle1-color);
+         text-decoration: none;">contacts</a> page.
+        <br>
+        <br>Thanks for reading this small personal note, and I hope you enjoy
+        the website <span class= "heart">&#10084;</span>
+        <br>Kerim Peerbocus
+        <br>
+      </h2>
+    </article>
+  </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.>
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script-->
 </body>
 
 </html>

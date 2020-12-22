@@ -1,12 +1,23 @@
 /* Fonts Used for each Page */
 
 
-/* ACTUALLY LOOK AT THE REST OF THE STUFF */
+
+    /* CHANGE H2 TO SOMETHING ELSE EVERYWHERE; HAS TO BE BODY?? */
+    /* MAKE TITLE BAR FIXED FOR UPDATE BOX */
+    /* ACTUALLY LOOK AT THE REST OF THE STUFF */
 
 
 
 
 
+
+/* Filler Text */
+/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+ fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+ culpa qui officia deserunt mollit anim id est laborum.*/
 
 /*Font Styles */
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
@@ -16,8 +27,9 @@
 /* Color Scheme */
 :root {
   --h1-color: #53b0bd;
-  --h2-color:#12646f;
+  --h3-color:#12646f;
   --text-color: #aeaeae;
+  --text-update: #818181;
 }
 
 h1{
@@ -32,13 +44,50 @@ h2{
   /*font-family: 'Josefin Slab', serif;*/
   font-family: 'Josefin Sans', sans serif;
   font-weight: bold;
-  margin-top: 1em;
-  margin-right: 0.5em;
-  margin-left: 0.67em;
-  margin-bottom: 0.67em;
+  margin: 1em 0.5em 0.67em 0.67em;
   padding-bottom: 45px;
 }
 
+
+/* Home Page Update Bar */
+.sidenav .mainhd{
+  font-size: 55px;
+  color: var(--bg-color);
+  font-family: 'Allura', cursive;
+  margin: 0 1vw 15px 10px;
+  /*border-bottom: 1px solid var(--circle2-color);*/
+}
+.datebtn .txt{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  color: var(--text-update);
+  padding: 5px 5px 10px 32px;
+  transition: 0.5s;
+}
+.updates .hd{
+  margin-left:2vw;
+  padding: 1vw 0;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: var(--bg-color);
+  text-transform: uppercase;
+}
+.updates .txt{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 2vw;
+  text-decoration: none;
+  color: var(--text-update);
+}
+
+.heart{
+  font-size: 25px;
+  color: var(--circle1-color);
+}
 
 /*
 :root {
@@ -97,6 +146,10 @@ rec-colour-schemes{
   sky2:#ff8967;
   sky3:#fd6051;
   sky4:#392033;
+
+  /* Cute transparent colours */
+  orange: rgba(220, 176, 146, 0.8);
+
 }
 
 
