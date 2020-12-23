@@ -2,11 +2,16 @@
 
 
 
+
     /* FIX FOR PHONES */
+    /* FILL ROOT FOR DARK THEMES */
+    /* PUT IN COLOR FOR OVERLAY AS WELL */
 
 
 
 
+/* Color Scheme */
+:root {}
 
 /* The side navigation menu */
 .sidenav {
@@ -70,6 +75,7 @@
 /* Content inside links */
 .updates {
   display: block;
+  margin-right: 3vw;
 }
 /* The close button (top right corner) */
 .sidenav .closebtn {

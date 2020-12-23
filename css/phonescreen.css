@@ -2,13 +2,19 @@
 
 
 
-    /* FIX SCROLLBAR FOR ABOUT */
+
     /* FIX UPDATE BAR FOR HOMEPAGE (ALREADY DOWN HERE) */
     /* GET ACTIVE TO SHOW RATHER THAN JUST HOME */
 
 
 
 
+
+/* Weird margin on left?? */
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 /* Main Title */
@@ -34,6 +40,10 @@ h1{
 /* Main Body */
 .article-box {
   width: 98vw;
+}
+.letter-frmt {
+  margin-left: 0.67em;
+  text-align: left;
 }
 
 /* Navigation Bar */
@@ -80,12 +90,13 @@ h1{
 
 /* About Fading Picture */
 img {
-  width: 97vw;
+  width: 98vw;
+  height: 70vh;
 }
 img {
-  margin-left: -8px;
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
-  color-stop(0%,rgba(255,255,255,1)), color-stop(80%,rgba(255,255,255,0)));
+  color-stop(40%,var(--bg-color)), color-stop(70%,rgba(251,251,251,0.5)),
+  color-stop(90%,rgba(251,251,251,0)));
 }
 .blank-space {
   margin-right: 0;
@@ -95,8 +106,10 @@ img {
   z-index: -1;
   left: 0;
   top: 0;
-  height: 100vw;
-  width: 97vw;
+  right: auto;
+  width: 98vw;
+  height: 60vh;
   margin: 0;
+  display: block;
 }
 

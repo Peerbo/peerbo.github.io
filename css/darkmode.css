@@ -2,7 +2,6 @@
 
 
 
-    /* UPDATE FOR 'UNDER CONSTRUCTION' ANIMATION */
     /* FIX FOR HOMEPAGE UPDATE BAR (POSSIBLY ADD IN NEW ONES SPECIALLY FOR IT) */
 
 
@@ -20,5 +19,23 @@
     --navbar-hover: #dc696e;
     --circle1-color: #d96784;
     --circle2-color: #ed948b;
+
+    /* 'Under Construction Animation' */
+    --bubble: #00b5dc;
+    --sea-border: #0086a3;
+    --sea: #0094b3;
+    --sea-dark: #003c49;
+    --sub-lamp:#008dab;
+    --sub-window: #008fb3;
+    --sub-window-dark: #006f8a;
+    --sub-light :#f2b4ad;
+    --sub: #e599ad;
+    --sub-dark:#e56558;
+    --sub-lamp-hold: #e56558;
+    --sub-hat: #d86582;
+    --sub-leds: #efa098;
+    --sub-leds-dark: #d24b6d;
+    --sub-leds-light: #fbe8e6;
+    --sub-eng: #f4d4dc;
   }
 }

@@ -1,13 +1,5 @@
 /* Main Format of each Page */
 
-
-    /* BACKGROUND IMAGE FIX */
-
-
-
-
-
-
 /* Font Styles */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
@@ -28,7 +20,7 @@
 /* Page Background */
 body {
   background-color: var(--bg-color);
-  background-image: url('https://www.transparenttextures.com/patterns/arches.png');
+  background-image: url("../../peerbo.github.io/img/arches.png");
 }
 
 /* Scrollbar */

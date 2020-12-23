@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment=".">
-      <change afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Added the update bar :purple_heart:✨">
+      <change afterPath="$PROJECT_DIR$/img/temp-img.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animations.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animations.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/animations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/darkmode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/darkmode.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/fontstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +45,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\js" />
       <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\img" />
+      <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\js" />
       <recent name="C:\Users\admin\WebstormProjects\peerbo.github.io\doc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -106,7 +104,8 @@
       <workItem from="1608396232254" duration="8352000" />
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
-      <workItem from="1608535544587" duration="65931000" />
+      <workItem from="1608535544587" duration="82488000" />
+      <workItem from="1608724085216" duration="6193000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -367,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608581175183</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Added the update bar :purple_heart:✨">
+      <created>1608663066472</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608663066472</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +392,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed font" />
     <MESSAGE value="✨ fixed font ✨&#10;&#10;:purple_heart:" />
     <MESSAGE value="Add link to a video" />
     <MESSAGE value="Deleted said link XD" />
@@ -411,6 +416,7 @@
     <MESSAGE value="Big Update with all the pages being 'ready' finally :purple_heart:✨" />
     <MESSAGE value="Changing that last page name XD" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Added the update bar :purple_heart:✨" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the update bar :purple_heart:✨" />
   </component>
 </project>
