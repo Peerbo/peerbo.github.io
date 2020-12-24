@@ -22,6 +22,7 @@
   --h1-color: #53b0bd;
   --h3-color:#12646f;
   --text-color: #aeaeae;
+  --sidenav-head: #fbfbfb ;
   --text-update: #818181;
 }
 
@@ -62,9 +63,9 @@ h2{
 /* Home Page Update Bar */
 .sidenav .mainhd{
   font-size: 55px;
-  color: var(--bg-color);
+  color: var(--sidenav-head);
   font-family: 'Allura', cursive;
-  margin: 0 1vw 15px 10px;
+  margin: 0 5vw 15px 10px;
   /*border-bottom: 1px solid var(--circle2-color);*/
 }
 .datebtn .txt{
@@ -82,7 +83,7 @@ h2{
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  color: var(--bg-color);
+  color: var(--sidenav-head);
   text-transform: uppercase;
 }
 .updates .txt{
@@ -97,7 +98,8 @@ h2{
 
 .heart{
   font-size: 25px;
-  color: var(--circle1-color);
+  color: transparent;
+  text-shadow: 0 0 0 var(--circle1-color);
 }
 
 /*

@@ -68,16 +68,44 @@ h1{
 .navbar {
   background-color: var(--navbar-hover);
   color: var(--navbar-color);
+  margin-left: 0;
 }
 
 
 /* Homepage Update Bar */
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+.sidenav .mainhd {
+  margin-right: 10px;
+  text-align: center;
 }
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+.datebtn .txt {
+  text-align: center;
+  padding: 10px 5px;
+}
+.updates .hd {
+  text-align: center;
+}
+.datebtn {
+  width: 100vw;
+}
+.overlay {
+  display: none;
+  position: relative;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  border-top: 5px solid var(--sidenav-scroll);
+  border-bottom: 5px solid var(--sidenav-scroll);
+}
+.date:hover .overlay {
+  display: block;
+  width: 100vw;
+  height: fit-content;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position
+the close button again, so they don't overlap *
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -85,12 +113,12 @@ h1{
     top: 15px;
     right: 35px;
   }
-}
+}               MAKE DATE THE CLOSE BUTTON */
 
 
 /* About Fading Picture */
 img {
-  width: 98vw;
+  width: 100vw;
   height: 70vh;
 }
 img {
@@ -107,7 +135,7 @@ img {
   left: 0;
   top: 0;
   right: auto;
-  width: 98vw;
+  width: 100vw;
   height: 60vh;
   margin: 0;
   display: block;

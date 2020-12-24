@@ -2,7 +2,7 @@
 
 
 
-    /* FIX FOR HOMEPAGE UPDATE BAR (POSSIBLY ADD IN NEW ONES SPECIALLY FOR IT) */
+    /* FIND COLOR SCHEME FOR BG AND TEXT ETC */
 
 
 
@@ -19,6 +19,14 @@
     --navbar-hover: #dc696e;
     --circle1-color: #d96784;
     --circle2-color: #ed948b;
+
+    /* Update Bar Colours */
+    --sidenav-color: #d96784;
+    --overlay-color: rgba(217,103,132,0.9);
+    --sidenav-scroll: #ed948b;
+    --sidenav-hover: #5d5485;
+    --sidenav-head: #5d5485;
+    --text-update: #ffd296;
 
     /* 'Under Construction Animation' */
     --bubble: #00b5dc;
