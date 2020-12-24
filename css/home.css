@@ -1,13 +1,5 @@
 /* Making the Home Screen Update Box */
 
-
-
-
-    /* FIX FOR PHONES */
-
-
-
-
 /* Color Scheme */
 :root {
   --sidenav-color: #92dccd;
@@ -64,7 +56,6 @@
 .overlay::-webkit-scrollbar-thumb {
   background-color: var(--sidenav-color);
 }
-
 
 /* The sidebar links */
 .date {
