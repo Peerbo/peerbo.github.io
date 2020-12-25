@@ -32,9 +32,8 @@ body::-webkit-scrollbar-track {
   border-left: 1px solid var(--navbar-hover);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: var(--circle1-color) ;
+  background-color: var(--circle1-color);
   border-radius: 6px;
-  border: 3px solid var(--circle1-color);
 }
 
 /* Circles */
@@ -48,6 +47,9 @@ body::-webkit-scrollbar-thumb {
   width: 200px;
   border-radius: 50%;
   margin: 10px;
+}
+.big-circle li{
+  list-style: none;
 }
 .small-circle {
   position: absolute;

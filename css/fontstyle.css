@@ -24,6 +24,7 @@
   --text-color: #aeaeae;
   --sidenav-head: #fbfbfb ;
   --text-update: #818181;
+  --link: #92dccd;
 }
 
 /* Filler Text */
@@ -99,7 +100,7 @@ h2{
 .heart{
   font-size: 25px;
   color: transparent;
-  text-shadow: 0 0 0 var(--circle1-color);
+  text-shadow: 0 0 0 var(--link);
 }
 
 /*

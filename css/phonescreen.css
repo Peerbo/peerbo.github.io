@@ -19,10 +19,7 @@ body{
 
 /* Main Title */
 h1{
-  font-size: 55px;
-}
-.header-article {
-  width: 98vw;
+  font-size: 43.75px;
 }
 .big-circle{
   height: 125px;
@@ -38,9 +35,6 @@ h1{
 }
 
 /* Main Body */
-.article-box {
-  width: 98vw;
-}
 .letter-frmt {
   margin-left: 0.67em;
   text-align: left;
