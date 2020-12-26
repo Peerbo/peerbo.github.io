@@ -21,7 +21,11 @@
 
   html {
     background: radial-gradient(circle at top 133px left 133px, var(--sky0), var(--sky1) 7.5%,
-    var(--sky2) 10%, var(--sky3), var(--sky4), var(--sky5), var(--sky6));
+    var(--sky2) 10%, var(--sky3), var(--sky4), var(--sky5), var(--sky6)) fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .small-circle {
     display: none;
