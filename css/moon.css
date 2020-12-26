@@ -1,0 +1,168 @@
+/* Moon for Dark Mode */
+
+
+
+
+    /* TODO: PUT ON ALL PAGES WITH CIRCLES */
+    /* TODO: FIND SOLUTION FOR ABOUT PAGE BACKGROUND */
+
+
+
+
+
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --moon: #dbd9ef;
+    --moon-dark: #c5c2e5;
+    --moon-crater: #afabdc;
+    --crater-dark: #8e88ce;
+  }
+
+  html {
+    background: radial-gradient(circle at top 133px left 133px, var(--sky0), var(--sky1) 7.5%,
+    var(--sky2) 10%, var(--sky3), var(--sky4), var(--sky5), var(--sky6));
+  }
+  .small-circle {
+    display: none;
+  }
+  .big-circle {
+    background-color: var(--moon);
+    box-shadow: inset -25px 0px 0 0px var(--moon-dark);
+  }
+
+  .big-circle li {
+    position: absolute;
+    list-style: none;
+    background: var(--moon-crater);
+    border-radius: 50%;
+  }
+
+  .big-circle li:nth-child(1) {
+    left: 25px;
+    top: 60px;
+    width: 50px;
+    height: 50px;
+    box-shadow: inset 6px -2px 0 0px var(--crater-dark);
+  }
+
+  .big-circle li:nth-child(2) {
+    left: 150px;
+    top: 50px;
+    width: 25px;
+    height: 25px;
+    box-shadow: inset 3px -1px 0 0px var(--crater-dark);
+  }
+
+  .big-circle li:nth-child(3) {
+    left: 100px;
+    top: 150px;
+    width: 25px;
+    height: 25px;
+    box-shadow: inset 3px -1px 0 0px var(--crater-dark);
+  }
+
+  .big-circle li:nth-child(4) {
+    left: 50px;
+    top: 150px;
+    width: 12.5px;
+    height: 12.5px;
+    box-shadow: inset 2.4px -0.8px 0 0px var(--crater-dark);
+  }
+
+  .big-circle li:nth-child(5) {
+    left: 87.5px;
+    top: 16.66666667px;
+    width: 12.5px;
+    height: 12.5px;
+    box-shadow: inset 2.4px -0.8px 0 0px var(--crater-dark);
+  }
+
+  .big-circle li:nth-child(6) {
+    left: 114.28571429px;
+    top: 80px;
+    width: 12.5px;
+    height: 12.5px;
+    box-shadow: inset 2.4px -0.8px 0 0px var(--crater-dark);
+  }
+
+  .big-circle li:nth-child(7) {
+    left: 181.81818182px;
+    top: 100px;
+    width: 12.5px;
+    height: 12.5px;
+    box-shadow: inset 2.4px -0.8px 0 0px var(--crater-dark);
+  }
+
+  /* Background for Phones */
+  @media only screen and (max-width: 600px) and (orientation: portrait) {
+    html {
+      background: radial-gradient(circle at top 95.5px left 87.5px, var(--sky0), var(--sky1) 4.6875%,
+      var(--sky2) 6.25%, var(--sky3), var(--sky4), var(--sky5), var(--sky6));
+    }
+
+    .big-circle {
+      box-shadow: inset -15.625px 0px 0 0px var(--moon-dark);
+    }
+
+    .big-circle li:nth-child(1) {
+      left: 15.625px;
+      top: 37.5px;
+      width: 31.25px;
+      height: 31.25px;
+      box-shadow: inset 3.75px -1.25px 0 0px var(--crater-dark);
+    }
+
+    .big-circle li:nth-child(2) {
+      left: 93.75px;
+      top: 31.25px;
+      width: 15.625px;
+      height: 15.625px;
+      box-shadow: inset 1.875px -0.625px 0 0px var(--crater-dark);
+    }
+
+    .big-circle li:nth-child(3) {
+      left: 62.5px;
+      top: 93.75px;
+      width: 15.625px;
+      height: 15.625px;
+      box-shadow: inset 1.875px -0.625px 0 0px var(--crater-dark);
+    }
+
+    .big-circle li:nth-child(4) {
+      left: 31.25px;
+      top: 93.75px;
+      width: 7.8125px;
+      height: 7.8125px;
+      box-shadow: inset 1.5px -0.5px 0 0px var(--crater-dark);
+    }
+
+    .big-circle li:nth-child(5) {
+      left: 54.6875px;
+      top: 10.4166666875px;
+      width: 7.8125px;
+      height: 7.8125px;
+      box-shadow: inset 1.5px -0.5px 0 0px var(--crater-dark);
+    }
+
+    .big-circle li:nth-child(6) {
+      left: 71.4285714312px;
+      top: 50px;
+      width: 7.8125px;
+      height: 7.8125px;
+      box-shadow: inset 1.5px -0.5px 0 0px var(--crater-dark);
+    }
+
+    .big-circle li:nth-child(7) {
+      left: 113.636363637px;
+      top: 62.5px;
+      width: 7.8125px;
+      height: 7.8125px;
+      box-shadow: inset 1.5px -0.5px 0 0px var(--crater-dark);
+    }
+
+    h1 {
+      margin-top: 1.25em;
+    }
+  }
+}

@@ -1,6 +1,26 @@
-/* Minor Changes for Phones in portrait mode */
+/* Adjustments for Phones in portrait mode */
 
-/* mainformat */
+
+
+
+    /* FIX UPDATE TRANSITION FOR UPDATE BAR */
+    /* GET ACTIVE TO SHOW RATHER THAN JUST HOME */
+
+
+
+
+
+/* Weird margin on left?? */
+body{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/* Main Title */
+h1{
+  font-size: 43.75px;
+}
 .big-circle{
   height: 125px;
   width: 125px;
@@ -14,32 +34,104 @@
   border-radius: 50%;
 }
 
-/* fontstyle */
-h1{
-  font-size: 55px;
+/* Main Body */
+.letter-frmt {
+  margin-left: 0.67em;
+  text-align: left;
 }
 
-/* about */
+/* Navigation Bar */
+    /* Hide all Except Home */
+.navbar a:not(:first-child) {display: none;}
+.navbar a.icon {
+  float: right;
+  display: block;
+}
+    /* "Responsive" Class Added */
+.navbar.responsive a.icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.navbar.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+    /* Design Adjustments */
+.navbar {
+  background-color: var(--navbar-hover);
+  color: var(--navbar-color);
+  margin-left: 0;
+}
+
+
+/* Homepage Update Bar */
+.sidenav .mainhd {
+  margin-right: 10px;
+  text-align: center;
+}
+.datebtn .txt {
+  text-align: center;
+  padding: 10px 5px;
+}
+.updates .hd {
+  text-align: center;
+}
+.datebtn {
+  width: 100vw;
+}
+.overlay {
+  display: none;
+  position: relative;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+  border-top: 5px solid var(--sidenav-scroll);
+  border-bottom: 5px solid var(--sidenav-scroll);
+}
+.date:hover .overlay {
+  display: block;
+  width: 100vw;
+  height: fit-content;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position
+the close button again, so they don't overlap *
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}               MAKE DATE THE CLOSE BUTTON */
+
+
+/* About Fading Picture */
+img {
+  width: 100vw;
+  height: 70vh;
+}
 img {
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
-  color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
+  color-stop(40%,var(--bg-color)), color-stop(70%,rgba(251,251,251,0.5)),
+  color-stop(90%,rgba(251,251,251,0)));
 }
 .blank-space {
   margin-right: 0;
 }
-
-/* normalize */
-.header-article {
-  height: 145px;
-}
-
-.top-picture {
+.about-pic {
   position: relative;
   z-index: -1;
-  left: 0px;
-  top: 0px;
-  height: 100vw;
+  left: 0;
+  top: 0;
+  right: auto;
   width: 100vw;
+  height: 60vh;
   margin: 0;
+  display: block;
 }
 

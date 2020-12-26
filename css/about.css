@@ -1,35 +1,29 @@
-/* Fading Image for About Page */
+/* About Page Specifics */
+
+
+
+
+    /* FIX LANDSCAPE FOR PHONE */
+
+
+
+
+
+/* Fading Image */
 img {
-  height: 125%;
-  width: 99%;
+  right: 0;
+  width: 50vw;
+  height: 130vh;
   margin-top: -8px;
   position: absolute;
 }
 img {
   -webkit-mask-image:-webkit-gradient(linear, right top, left top,
-  color-stop(0%,rgba(255,255,255,1)), color-stop(40%,rgba(255,255,255,0)));
+  color-stop(40%,var(--bg-color)), color-stop(60%, rgba(251, 251, 251, 0.5)),
+  color-stop(80%, rgba(0, 0, 0, 0)));
 }
 
 /* Textwrap for Fading Pic */
 .blank-space {
-  margin-right: 25em;
+  margin-right: 40vw;
 }
-
-
-.article-box{
-  background: white;
-}
-
-.header-article{
-  background: white;
-}
-
-.top-picture {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: block;
-}
-

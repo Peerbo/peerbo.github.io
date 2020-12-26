@@ -5,17 +5,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
-/* Color Schemes */
+/* Color Scheme */
 :root {
-  --bg-color:#fbfbfb;
-  --navbar-color: #ececec;
-  --navbar-hover:#c2b394;
-  --circle1-color:#92dccd;
-  --circle2-color:#dbe4cf;
-  --text-color: #aeaeae;
+  --bg-color: #fbfbfb;
+  sand2: #ececec;
+  sand: #c2b394;
+  --navbar-color: #808080; /* potential */
+  --navbar-hover: #e7e4d5;
+  --circle1-color: #92dccd;
+  --circle2-color: #dbe4cf;
+  cool-water: #b6dde8;
 }
 
-/* Background Circles */
+/* Page Background */
+body {
+  background-color: var(--bg-color);
+  background-image: url("../../peerbo.github.io/img/arches.png");
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 13px;
+}
+body::-webkit-scrollbar-track {
+  background: var(--bg-color);
+  border-left: 1px solid var(--navbar-hover);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--circle1-color);
+  border-radius: 6px;
+}
+
+/* Circles */
 .big-circle {
   background-color: var(--circle1-color);
   position: relative;
@@ -26,6 +47,9 @@
   width: 200px;
   border-radius: 50%;
   margin: 10px;
+}
+.big-circle li{
+  list-style: none;
 }
 .small-circle {
   position: absolute;
@@ -38,8 +62,8 @@
 }
 
 /* Navigation Bar */
-/* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
+  /* Navbar Position */
   background-color: var(--bg-color);
   overflow: hidden;
   position: fixed;
@@ -48,9 +72,8 @@
   border-top: 1px solid var(--navbar-hover);
   margin-left: -8px;
 }
-
-/* Style the links inside the navigation bar */
 .navbar a {
+  /* Link Style */
   float: left;
   display: block;
   color: var(--text-color);
@@ -61,15 +84,17 @@
   font-family: 'Pacifico', cursive;
   text-transform: uppercase;
 }
-
-/* Change the color of links on hover */
 .navbar a:hover {
+  /* Hover Links */
   background-color: var(--navbar-hover);
   color: var(--navbar-color);
 }
-
-/* Add a color to the active/current link */
 .navbar a.active {
+  /* Active Links */
   background-color: var(--navbar-hover);
   color: var(--navbar-color);
+}
+.navbar .icon {
+  /* Small Screen Link */
+  display: none;
 }

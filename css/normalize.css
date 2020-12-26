@@ -1,38 +1,34 @@
 /* Formatting Website to work on all browsers */
-/* For now, mostly all from Sneha */
 
+
+
+
+    /* UNDERSTAND IT */
+
+
+
+
+
+/* For now, mostly all from Sneha */
 /* Main Headings Box */
 .header-article {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
-  width: 100%;
-  height: 225px;
+  width: 98vw;
+  height: fit-content;
+  padding-bottom: 10px;
 }
-
 .article-box {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6*/
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
+  display: block;
+  width: 98vw;
+  height: fit-content;
+}
+/* About Page Specifics */
+.about-pic {
   display: block;
   width: 100%;
+  height: 0;
 }
-
-.about-pic {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: block;
-}
-
-/* Resume Stuff from Sneha */
+/* Resume Stuff */
 section{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   display: -webkit-flex;

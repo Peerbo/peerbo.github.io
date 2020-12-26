@@ -1,17 +1,39 @@
 /* Fonts Used for each Page */
 
+
+
+    /* CHANGE H2 TO SOMETHING ELSE EVERYWHERE; HAS TO BE BODY?? */
+    /* MAKE TITLE BAR FIXED FOR UPDATE BOX */
+    /* ACTUALLY LOOK AT THE REST OF THE STUFF */
+
+
+
+
+
+
+
 /*Font Styles */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italliano&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Josefin+Slab:wght@450&display=swap');
 
-/* Color Schemes */
+/* Color Scheme */
 :root {
-  --bg-color:#fbfbfb;
-  --h1-color:#53b0bd;
-  --h2-color:#12646f;
+  --h1-color: #53b0bd;
+  --h3-color:#12646f;
   --text-color: #aeaeae;
+  --sidenav-head: #fbfbfb ;
+  --text-update: #818181;
+  --link: #92dccd;
 }
+
+/* Filler Text */
+/*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+ incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+ fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+ culpa qui officia deserunt mollit anim id est laborum.*/
 
 h1{
   font-size: 70px;
@@ -22,16 +44,64 @@ h1{
 h2{
   font-size: 25px;
   color: var(--text-color);
-  font-family: 'Allura', cursive;
-  margin-top: 1em;
-  margin-right: 0.67em;
-  margin-left: 0.67em;
-  margin-bottom: 0.67em;
-}
-body{
-  background-color: var(--bg-color);
+  /*font-family: 'Josefin Slab', serif;*/
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  margin: 1em 0.5em 0.67em 0.67em;
+  padding-bottom: 45px;
 }
 
+.letter-frmt {
+  font-size: 25px;
+  color: var(--text-color);
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  padding-bottom: 45px;
+  text-align: justify;
+  margin: 1em 3vw 0.67em 22vw;
+}
+
+/* Home Page Update Bar */
+.sidenav .mainhd{
+  font-size: 55px;
+  color: var(--sidenav-head);
+  font-family: 'Allura', cursive;
+  margin: 0 5vw 15px 10px;
+  /*border-bottom: 1px solid var(--circle2-color);*/
+}
+.datebtn .txt{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  color: var(--text-update);
+  padding: 5px 5px 10px 32px;
+  transition: 0.5s;
+}
+.updates .hd{
+  margin-left:2vw;
+  padding: 1vw 0;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  color: var(--sidenav-head);
+  text-transform: uppercase;
+}
+.updates .txt{
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 2vw;
+  text-decoration: none;
+  color: var(--text-update);
+  text-align: justify;
+}
+
+.heart{
+  font-size: 25px;
+  color: transparent;
+  text-shadow: 0 0 0 var(--link);
+}
 
 /*
 :root {
@@ -46,37 +116,8 @@ body{
   --circle1-color:#92dccd;
   --circle2-color:#dbe4cf;
   --beach-color: #b8e0e0;
-}
-.update-box {
-  overflow: auto;
-  border-radius: 25px;
-  width: 500px;
-  height: 500px;
-  background: var(--beach-color);
-  float: left;
-  left: -5px;
-  top: 15px;
-  padding: 5px;
-  font-size: 15px;
-  color: var(--navbar-color-2);
-  font-family: 'Josefin Slab', monospace;
-}
-.update-box li {
+ */
 
-}
-.update-box-title {
-  overflow:hidden;
-  width:500px;
-  height:50px;
-  background: var(--title-color);
-  float:left;
-  padding: 5px;
-  font-size: 40px;
-  color: var(--navbar-color-2);
-  font-family: 'Allura', cursive;
-  text-align: center;
-}
-*/
 rec-colour-schemes{
   /*Walk on the Beach*/
   sky:#4a73b1;
@@ -112,6 +153,16 @@ rec-colour-schemes{
   sky-2:#d96784;
   sky-3:#ed948b;
   sun:#fdd892;
+
+  /* Sunset Sky */
+  sun:#ffe577;
+  sky1:#fec051;
+  sky2:#ff8967;
+  sky3:#fd6051;
+  sky4:#392033;
+
+  /* Cute transparent colours */
+  orange: rgba(220, 176, 146, 0.8);
 
 }
 
