@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Added Dark Mode everywhere XD">
-      <change afterPath="$PROJECT_DIR$/css/moon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/star-bg.jpg" afterDir="false" />
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="New Dark Mode Background :moon:✨">
+      <change afterPath="$PROJECT_DIR$/css/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/tempdark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fish.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/me-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/me-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/temp-wheel.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/animations.html" beforeDir="false" afterPath="$PROJECT_DIR$/animations.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/darkmode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/darkmode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/darkmode.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/fontstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/moon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/future.html" beforeDir="false" afterPath="$PROJECT_DIR$/future.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hobbies.html" beforeDir="false" afterPath="$PROJECT_DIR$/hobbies.html" afterDir="false" />
@@ -106,7 +114,9 @@
       <workItem from="1608441959714" duration="13116000" />
       <workItem from="1608490823824" duration="1026000" />
       <workItem from="1608535544587" duration="82488000" />
-      <workItem from="1608724085216" duration="55070000" />
+      <workItem from="1608724085216" duration="56444000" />
+      <workItem from="1608918959594" duration="7728000" />
+      <workItem from="1608979730765" duration="33105000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -395,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608796227929</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="New Dark Mode Background :moon:✨">
+      <created>1608911224491</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1608911224491</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +431,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adjusted an intro msg for ppl who enter rn :purple_heart:" />
     <MESSAGE value="Started fixing the super-confusing ✨ main.css and normalize.css ✨" />
     <MESSAGE value="Changed fonts and text ^^" />
     <MESSAGE value="Added the Resume finally :purple_heart:" />
@@ -439,6 +455,7 @@
     <MESSAGE value="About Page and Dark Mode Fixes✨" />
     <MESSAGE value="Dark Mode and Phone Fixes for Update Bar✨" />
     <MESSAGE value="Added Dark Mode everywhere XD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Dark Mode everywhere XD" />
+    <MESSAGE value="New Dark Mode Background :moon:✨" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Dark Mode Background :moon:✨" />
   </component>
 </project>

@@ -2,12 +2,11 @@
 
 
 
-    <!-- PUT RESUME DISPLAY IN CSS?? -->
+    <!-- TODO:PUT RESUME DISPLAY IN CSS?? -->
     <!-- MAKE PAGE LOOK NICE -->
 
 
-
-<html class= "no-js" lang="en">
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8">
   <title>Resume</title>
@@ -27,8 +26,18 @@
   <link rel="stylesheet" media="screen and (max-width: 600px)
         and (orientation: portrait)" href="css/phonescreen.css">
     <!-- For dark mode -->
-  <link rel="stylesheet" href="css/darkmode.css">
-  <link rel="stylesheet" href="css/moon.css">
+  <link rel="stylesheet" href="css/dark.css">
+
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYZDG9LRE0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TYZDG9LRE0');
+  </script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -38,6 +47,7 @@
     <div class="stars3"></div>
     <div class="stars4"></div>
     <div class="stars5"></div>
+    <div class="stars6"></div>
   </div>
   <div class="navbar" id="myNavbar">
     <a href="https://peerbo.github.io/">Home</a>
@@ -64,14 +74,16 @@
       </div>
       <h1>My Resume</h1>
     </article>
-  <h2 style="padding-bottom: 0;">Just a heads up, this will also be updated later
-    on to actually have all of that information nicely presented along with the pdf
-    link, but for now it only includes the pdf version.
-  </h2>
+  <article class="article-box">
+    <div class="txt">
+      Just a heads up, this will also be updated later
+      on to actually have all of that information nicely presented along with the pdf
+      link, but for now it only includes the pdf version.
+    </div>
+  </article>
     <section>
       <iframe src="doc/resume-website.pdf">
-        #document
-        <!DOCTYPE html>
+        <!--DOCTYPE html>
         <html>
         <head></head>
         <body style="height: 100%; width: 100%; overflow: hidden; margin:0;
@@ -80,7 +92,7 @@
           left: 0; top: 0;" width="100%" height="100%" src="about:blank"
                type="application/pdf" internalid="9DC938A55EA3C814AF553EB0C8D0F430">
         </body>
-        </html>
+        </html-->
 
       </iframe>
     </section>

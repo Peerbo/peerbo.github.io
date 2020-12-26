@@ -8,20 +8,28 @@
 /* Color Scheme */
 :root {
   --bg-color: #fbfbfb;
-  sand2: #ececec;
-  sand: #c2b394;
+  --sand2: #ececec;
+  --sand: #c2b394;
   --navbar-color: #808080; /* potential */
   --navbar-hover: #e7e4d5;
   --circle1-color: #92dccd;
   --circle2-color: #dbe4cf;
-  cool-water: #b6dde8;
+  --cool-water: #b6dde8;
+
+  --sea: #c3ebf5;
+  --sea-dark: #37bbdd;
 }
 
 /* Page Background */
 body {
-  background-color: var(--bg-color);
-  background-image: url("../../peerbo.github.io/img/arches.png");
+  background-image: url("../../peerbo.github.io/img/arches.png"), linear-gradient(to top, #5ba1b0, #acd1d1, #dce2e1 95%);
+  animation: slide 20s ease-in-out infinite;
 }
+
+@keyframes slide {
+  0% { background-position: right top; }
+  100% { background-position: right bottom; }
+  }
 
 /* Scrollbar */
 body::-webkit-scrollbar {
@@ -38,21 +46,67 @@ body::-webkit-scrollbar-thumb {
 
 /* Circles */
 .big-circle {
-  background-color: var(--circle1-color);
+  background: url("https://upload.wikimedia.org/wikipedia/commons/3/34/Steering_wheel_ship_1.png"),
+      radial-gradient(circle at center, rosybrown , transparent 15%) center no-repeat;
+  background-size: 100%;
   position: relative;
-  z-index: -1;
   left: 15px;
   top: 15px;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   margin: 10px;
+  /*animation: rotateWheel 5s;*/
 }
 .big-circle li{
+  position: relative;
   list-style: none;
 }
+
+@keyframes rotateWheel {
+  0% {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  20% {
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  40% {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  60% {
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  80% {
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  100% {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+    /* TODO: FIX HEADING BEFORE DELETING SMALL-CIRCLE */
 .small-circle {
+  display: none;
   position: absolute;
+  z-index: -1;
   left: 100px;
   top: 70px;
   background-color: var(--circle2-color);

@@ -1,25 +1,14 @@
 /* Adjustments for Phones in portrait mode */
 
-
-
-
-    /* FIX UPDATE TRANSITION FOR UPDATE BAR */
-    /* GET ACTIVE TO SHOW RATHER THAN JUST HOME */
-
-
-
-
-
-/* Weird margin on left?? */
+/* Margin on the sides */
 body{
   margin-left: 0;
   margin-right: 0;
 }
 
-
 /* Main Title */
 h1{
-  font-size: 43.75px;
+  font-size: 50px;
 }
 .big-circle{
   height: 125px;
@@ -42,6 +31,7 @@ h1{
 
 /* Navigation Bar */
     /* Hide all Except Home */
+    /* TODO:GET ACTIVE TO SHOW RATHER THAN JUST HOME */
 .navbar a:not(:first-child) {display: none;}
 .navbar a.icon {
   float: right;
@@ -67,6 +57,7 @@ h1{
 
 
 /* Homepage Update Bar */
+/* TODO:FIX UPDATE TRANSITION FOR UPDATE BAR */
 .sidenav .mainhd {
   margin-right: 10px;
   text-align: center;

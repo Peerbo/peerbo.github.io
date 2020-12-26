@@ -1,13 +1,5 @@
 /* Formatting Website to work on all browsers */
-
-
-
-
-    /* UNDERSTAND IT */
-
-
-
-
+/* TODO: Look at the stuff here too */
 
 /* For now, mostly all from Sneha */
 /* Main Headings Box */
@@ -16,18 +8,9 @@
   width: 98vw;
   height: fit-content;
   padding-bottom: 10px;
+
 }
-.article-box {
-  display: block;
-  width: 98vw;
-  height: fit-content;
-}
-/* About Page Specifics */
-.about-pic {
-  display: block;
-  width: 100%;
-  height: 0;
-}
+
 /* Resume Stuff */
 section{
   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -39,7 +22,7 @@ section{
   justify-content: center;
 }
 iframe{
-  border: 0;
+  border: none;
   display: inherit;
   height: 67em;
   margin: 2em auto;
