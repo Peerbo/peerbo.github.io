@@ -7,28 +7,32 @@
 
 /* Color Scheme */
 :root {
-  --bg-color: #fbfbfb;
-  --sand2: #ececec;
-  --sand: #c2b394;
-  --navbar-color: #808080; /* potential */
-  --navbar-hover: #e7e4d5;
-  --circle1-color: #92dccd;
-  --circle2-color: #dbe4cf;
-  --cool-water: #b6dde8;
-
-  --sea: #c3ebf5;
-  --sea-dark: #37bbdd;
+  --sea1: #11383f;
+  --sea2: #277b8c;
+  --sea3: #6fc5d6;
+  --jade1: #00dc9f;
+  --jade2: #00ab7c;
+  --jade3: #00a376;
+  --bg-color: #2b8799;
+  --navbar-color: #70541c;
+  --navbar-border: #d0a144;
+  --circle1-color: #cc9933;
+  --circle2-color: #a27928;
 }
 
 /* Page Background */
+/* TODO: PUT IN SAME THING THAT SASHA PUT IN DARK MODE */
 body {
-  background-image: url("../../peerbo.github.io/img/arches.png"), linear-gradient(to top, #5ba1b0, #acd1d1, #dce2e1 95%);
+  background: url("../../peerbo.github.io/img/arches.png"),
+      linear-gradient(to top, var(--sea1), var(--sea2), var(--sea3));
   animation: slide 20s ease-in-out infinite;
+  overflow-x: hidden;
 }
 
 @keyframes slide {
-  0% { background-position: right top; }
-  100% { background-position: right bottom; }
+  0% { background-position: top; }
+  50% { background-position: center; }
+  100% { background-position: top; }
   }
 
 /* Scrollbar */
@@ -37,19 +41,22 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-track {
   background: var(--bg-color);
-  border-left: 1px solid var(--navbar-hover);
+  border-left: 1px solid var(--navbar-border);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: var(--circle1-color);
+  background: radial-gradient(ellipse at center, var(--jade1), var(--jade2));
   border-radius: 6px;
+  box-sizing: border-box;
+  border: 2px solid var(--jade3);
 }
 
 /* Circles */
 .big-circle {
   background: url("https://upload.wikimedia.org/wikipedia/commons/3/34/Steering_wheel_ship_1.png"),
-      radial-gradient(circle at center, rosybrown , transparent 15%) center no-repeat;
+      radial-gradient(circle at center,  #0effbc, #00ab7c 10%, transparent 10%) center no-repeat;
   background-size: 100%;
   position: relative;
+  z-index: -1;
   left: 15px;
   top: 15px;
   height: 200px;
@@ -63,6 +70,7 @@ body::-webkit-scrollbar-thumb {
   list-style: none;
 }
 
+ /* TODO: FIND BETTER TURN */
 @keyframes rotateWheel {
   0% {
     -ms-transform: rotate(0deg);
@@ -118,12 +126,12 @@ body::-webkit-scrollbar-thumb {
 /* Navigation Bar */
 .navbar {
   /* Navbar Position */
-  background-color: var(--bg-color);
-  overflow: hidden;
+  background: linear-gradient(to bottom, var(--circle2-color), var(--circle1-color) 25%, var(--circle2-color) 75%); /*var(--bg-color);*/
+  overflow-x: hidden;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  border-top: 1px solid var(--navbar-hover);
+  width: 100vw;
+  border-top: 2px solid black /*(var(--navbar-border))*/;
   margin-left: -8px;
 }
 .navbar a {
@@ -137,15 +145,15 @@ body::-webkit-scrollbar-thumb {
   font-size: 13px;
   font-family: 'Pacifico', cursive;
   text-transform: uppercase;
+  transition: .5s;
+  -webkit-font-smoothing: antialiased
 }
 .navbar a:hover {
   /* Hover Links */
-  background-color: var(--navbar-hover);
   color: var(--navbar-color);
 }
 .navbar a.active {
   /* Active Links */
-  background-color: var(--navbar-hover);
   color: var(--navbar-color);
 }
 .navbar .icon {

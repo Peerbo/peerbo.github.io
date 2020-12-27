@@ -8,7 +8,7 @@
   width: 98vw;
   height: fit-content;
   padding-bottom: 10px;
-
+  transition: 1s;
 }
 
 /* Resume Stuff */

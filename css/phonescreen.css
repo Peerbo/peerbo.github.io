@@ -23,12 +23,6 @@ h1{
   border-radius: 50%;
 }
 
-/* Main Body */
-.letter-frmt {
-  margin-left: 0.67em;
-  text-align: left;
-}
-
 /* Navigation Bar */
     /* Hide all Except Home */
     /* TODO:GET ACTIVE TO SHOW RATHER THAN JUST HOME */
@@ -47,10 +41,11 @@ h1{
   float: none;
   display: block;
   text-align: left;
+  background: linear-gradient(to bottom, var(--circle2-color), var(--circle1-color) 25%, var(--circle2-color) 75%);
+  border: 1px solid var(--navbar-color);
 }
     /* Design Adjustments */
 .navbar {
-  background-color: var(--navbar-hover);
   color: var(--navbar-color);
   margin-left: 0;
 }

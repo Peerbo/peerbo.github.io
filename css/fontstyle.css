@@ -14,12 +14,14 @@
 
 /* Color Scheme */
 :root {
-  --h1-color: #53b0bd;
+  --h1-color: #f9f3e8;
   --h3-color:#12646f;
-  --text-color: #aeaeae;
-  --sidenav-head: #fbfbfb ;
-  --text-update: #818181;
-  --link: #92dccd;
+  --text-color: #f7f0e1;
+  --sidenav-head: #d0a144;
+  --text-update: #676251;
+  --update-head: #554f03;
+  --link: #00dc9f;
+  /*--link: #92dccd;*/
 }
 
 /* Headings and Subheadings */
@@ -39,12 +41,14 @@ h2{
   margin: 1em 0.5em 0.67em 0.67em;
 }
 
-
+/* Main content */
 .article-box {
   display: block;
   width: 98vw;
   height: fit-content;
+  transition: 1s;
 }
+
 .article-box .txt {
   font-size: 25px;
   color: var(--text-color);
@@ -54,23 +58,51 @@ h2{
   padding-bottom: 45px;
 }
 
-/* For Notes and Letters */
-.letter-head {
+.heart{
+  font-size: 25px;
+  color: transparent;
+  text-shadow: 0 0 0 var(--link);
+}
+
+.resumehd {
+  font-size: 30px;
+  color: var(--h1-color);
+  font-family: 'Josefin Slab', serif;
+  margin-top: 1em;
+  margin-right: 0.5em;
+  margin-left: 2vw;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+.resumetxt {
   font-size: 25px;
   color: var(--text-color);
   font-family: 'Josefin Sans', sans serif;
   font-weight: bold;
-  margin: 1em 0.5em 0.67em 0.67em;
+  margin: 0 0.5em 0 3vw;
+}
+
+/* For Notes and Letters */
+.letter-head {
+  font-size: 20px;
+  color: var(--text-color);
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-right: 2vw;
+  margin-left: 0.67em;
+  margin-bottom: 0.67em;
   text-align: end;
 }
 .letter-frmt {
-  font-size: 25px;
+  font-size: 20px;
   color: var(--text-color);
   font-family: 'Josefin Sans', sans serif;
   font-weight: bold;
   padding-bottom: 45px;
   text-align: justify;
-  margin: 1em 3vw 0.67em 22vw;
+  margin: 1em 4vw 0.67em 22vw;
 }
 
 /* Home Page Update Bar */
@@ -79,7 +111,8 @@ h2{
   font-size: 55px;
   color: var(--sidenav-head);
   font-family: 'Allura', cursive;
-  margin: 0 5vw 15px 10px;
+  margin: 0 5vw 15px 5vw;
+  text-indent: -2vw;
   /*border-bottom: 1px solid var(--circle2-color);*/
 }
 .datebtn .txt{
@@ -97,7 +130,7 @@ h2{
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  color: var(--sidenav-head);
+  color: var(--update-head);
   text-transform: uppercase;
 }
 .updates .txt{
@@ -110,11 +143,8 @@ h2{
   text-align: justify;
 }
 
-.heart{
-  font-size: 25px;
-  color: transparent;
-  text-shadow: 0 0 0 var(--link);
-}
+
+
 
 rec-colour-schemes{
   /*Walk on the Beach*/

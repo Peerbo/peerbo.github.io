@@ -2,10 +2,12 @@
 
 /* Color Scheme */
 :root {
-  --sidenav-color: #92dccd;
-  --overlay-color: rgba(146,220,205,0.9);
-  --sidenav-scroll: #dbe4cf;
-  --sidenav-hover: #fbfbfb;
+  --sidenav-color: #3475ae;
+  --overlay-color: rgba(227, 227, 202, 0.9);
+  --overlay-dark: rgba(252, 228, 155,0.9);
+  --overlay-darker: rgba(252, 224, 139, 0.8);
+  --sidenav-scroll: #d0a144;
+  --sidenav-hover: #d0a144;
 }
 
 /* The side navigation menu */
@@ -16,10 +18,11 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: var(--sidenav-color);
+  background: var(--sidenav-color);
   overflow-x: hidden;
+  border-right: 1px solid var(--navbar-border);
   padding-top: 50px;
-  transition: 0.5s;
+  transition: 1s;
 }
 /* The Overlay (background) */
 .overlay {
@@ -27,11 +30,12 @@
   width: 0;
   position: fixed;
   z-index: 1;
-  left: 24vw;
+  left: 25vw;
   top: 0;
-  background-color: var(--overlay-color);
+  background: url("../../peerbo.github.io/img/clean-gray-paper.png"),
+    linear-gradient(to left, var(--overlay-darker), var(--overlay-color), var(--overlay-dark));
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 /* Update Box Scrollbar */
@@ -42,7 +46,7 @@
   background: var(--sidenav-color);
 }
 .sidenav::-webkit-scrollbar-thumb {
-  background-color: var(--sidenav-scroll) ;
+  background: var(--sidenav-scroll);
   border-radius: 6px;
   border: 2px solid var(--sidenav-color);
 }
@@ -51,10 +55,10 @@
   width: 7px;
 }
 .overlay::-webkit-scrollbar-track {
-  background: var(--overlay-color);
+  background: url("../../peerbo.github.io/img/clean-gray-paper.png") var(--overlay-darker);
 }
 .overlay::-webkit-scrollbar-thumb {
-  background-color: var(--sidenav-color);
+  background: url("../../peerbo.github.io/img/clean-gray-paper.png") var(--overlay-darker);
 }
 
 /* The sidebar links */
@@ -82,7 +86,7 @@
   text-decoration: none;
   color: var(--text-update);
   display: block;
-  transition: 0.3s;
+  transition: 1s;
 }
 
 /* Mouse over stuff animation */
@@ -98,5 +102,5 @@
 
 /* Pushing page content to the right when opening sidebar */
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 1s;
 }

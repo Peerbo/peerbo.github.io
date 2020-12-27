@@ -2,7 +2,6 @@
 /* TODO: FIX LANDSCAPE FOR PHONE */
 
 /* Fading Image */
-/* About Page Specifics */
 .about-pic {
   display: block;
   width: 100%;
@@ -25,4 +24,32 @@ img {
 /* Textwrap for Fading Pic */
 .blank-space {
   margin-right: 40vw;
+}
+
+/* Background for PC */
+body {
+  background: url("../../peerbo.github.io/img/arches-abt.png"),
+    linear-gradient(to right, #1c5965, #329db2, #6fc5d6);
+  animation: slide-right 30s ease-in-out infinite;
+}
+
+@keyframes slide-right {
+  0% { background-position: left; }
+  50% { background-position: center; }
+  100% { background-position: left; }
+}
+
+/* Background for Phone */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  body {
+    background-image: url("../../peerbo.github.io/img/arches.png"),
+    linear-gradient(to top, #1c5965, #329db2, #6fc5d6);
+    animation: slide 20s ease-in-out infinite;
+  }
+
+  @keyframes slide {
+    0% { background-position: top; }
+    50% { background-position: center; }
+    100% { background-position: top; }
+  }
 }
