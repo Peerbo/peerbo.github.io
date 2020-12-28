@@ -37,9 +37,6 @@
     --moon-crater: #afabdc;
     --crater-dark: #8e88ce;
   }
-  .overlay {
-    background: linear-gradient(to left, var(--overlay-dark), var(--overlay-color), var(--overlay-dark));
-  }
   /* TODO: FIND SOLUTION FOR PAGE BACKGROUNDS */
   body {
     background-image: none;
@@ -60,6 +57,9 @@
   body::-webkit-scrollbar-thumb {
     background: var(--circle1-color);
     border: 2px solid var(--circle1-color);
+  }
+  .overlay {
+    background: linear-gradient(to left, var(--overlay-dark), var(--overlay-color), var(--overlay-dark));
   }
   .navbar {
     background: var(--bg-color);
