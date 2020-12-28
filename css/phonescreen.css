@@ -111,14 +111,13 @@ img {
   margin-right: 0;
 }
 .about-pic {
-  position: relative;
-  z-index: -1;
-  left: 0;
-  top: 0;
-  right: auto;
-  width: 100vw;
-  height: 60vh;
-  margin: 0;
-  display: block;
+  /*position: relative;*/
+  /*z-index: -1;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*right: auto;*/
+  /*width: 100vw;*/
+  /*margin: 0;*/
+  /*display: block;*/
 }
 

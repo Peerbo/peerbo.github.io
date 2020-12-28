@@ -5,9 +5,10 @@ html{
   background: url("https://peerbo.github.io/img/arches.png"),  linear-gradient(to top, var(--sea1), var(--sea2), var(--sea3));
   animation: slide 20s ease-in-out infinite;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
   margin: 0;
   z-index: -500;
+  min-width: 380px;
 }
 
 
@@ -82,8 +83,14 @@ img {
     top: 0;
     right: auto;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     margin: 0;
     display: block;
+  }
+}
+
+@media (min-aspect-ratio: 16/6){
+  .about-pic {
+    height: 25vh;
   }
 }
