@@ -28,7 +28,18 @@
   <link rel="stylesheet" media="screen and (max-width: 600px)
         and (orientation: portrait)" href="css/phonescreen.css">
     <!-- For dark mode -->
-  <link rel="stylesheet" href="css/darkmode.css">
+  <link rel="stylesheet" href="css/tempdark.css">
+
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYZDG9LRE0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TYZDG9LRE0');
+  </script>
 
 </head>
 <body>
@@ -37,6 +48,7 @@
   <div class="stars3"></div>
   <div class="stars4"></div>
   <div class="stars5"></div>
+  <div class="stars6"></div>
 </div>
 <div class="sea">
   <div class="circle-wrapper">
@@ -69,10 +81,10 @@
 </div>
 <article class="article-box">
   <h1 style="margin-top: 0.5em;margin-bottom: 0.1em">Oops...</h1>
-  <h2 style="margin-top: 0; margin-left: 1.5em">
+  <div class="txt" style="margin-top: 0; margin-left: 1.5em">
     Looks like I am still looking for this treasure,
-    <br> Check back later ^^
-  </h2>
+    <br> Don't worry though, all of these contacts will be here soon ^^
+  </div>
 </article>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>

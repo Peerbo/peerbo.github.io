@@ -1,25 +1,14 @@
 /* Adjustments for Phones in portrait mode */
 
-
-
-
-    /* FIX UPDATE TRANSITION FOR UPDATE BAR */
-    /* GET ACTIVE TO SHOW RATHER THAN JUST HOME */
-
-
-
-
-
-/* Weird margin on left?? */
+/* Margin on the sides */
 body{
   margin-left: 0;
   margin-right: 0;
 }
 
-
 /* Main Title */
 h1{
-  font-size: 43.75px;
+  font-size: 50px;
 }
 .big-circle{
   height: 125px;
@@ -34,15 +23,10 @@ h1{
   border-radius: 50%;
 }
 
-/* Main Body */
-.letter-frmt {
-  margin-left: 0.67em;
-  text-align: left;
-}
-
 /* Navigation Bar */
     /* Hide all Except Home */
-.navbar a:not(:first-child) {display: none;}
+    /* TODO:GET ACTIVE TO SHOW RATHER THAN JUST HOME */
+.navbar a:not(.active) {display: none;}
 .navbar a.icon {
   float: right;
   display: block;
@@ -57,16 +41,18 @@ h1{
   float: none;
   display: block;
   text-align: left;
+  background: linear-gradient(to bottom, var(--circle2-color), var(--circle1-color) 25%, var(--circle2-color) 75%);
+  border: 1px solid var(--navbar-color);
 }
     /* Design Adjustments */
 .navbar {
-  background-color: var(--navbar-hover);
   color: var(--navbar-color);
   margin-left: 0;
 }
 
 
 /* Homepage Update Bar */
+/* TODO:FIX UPDATE TRANSITION FOR UPDATE BAR */
 .sidenav .mainhd {
   margin-right: 10px;
   text-align: center;
@@ -113,7 +99,7 @@ the close button again, so they don't overlap *
 /* About Fading Picture */
 img {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 img {
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,

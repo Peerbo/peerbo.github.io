@@ -1,15 +1,5 @@
 <!doctype html>
 
-
-
-
-    <!-- PHONE STYLE SHEET DIFF FROM THE REST IN HEAD -->
-
-
-
-
-
-
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
@@ -29,13 +19,21 @@
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/normalize.css">
     <!-- For phones -->
-  <link rel="stylesheet" media="screen and (orientation: portrait)"
-        href="css/phonescreen.css">
   <link rel="stylesheet" media="screen and (max-width: 600px)
-  and (orientation: landscape)" href="css/phonescreen.css">
+    and (orientation: portrait)" href="css/phonescreen.css">
     <!-- For dark mode -->
-  <link rel="stylesheet" href="css/darkmode.css">
-  <link rel="stylesheet" href="css/moon.css">
+  <link rel="stylesheet" href="css/dark.css">
+
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYZDG9LRE0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TYZDG9LRE0');
+  </script>
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -45,10 +43,13 @@
     <div class="stars3"></div>
     <div class="stars4"></div>
     <div class="stars5"></div>
+    <div class="stars6"></div>
   </div>
-
   <div class="about-pic">
-    <img src="img/temp.png" alt="Temporary Picture">
+    <picture>
+      <source srcset="img/me-2.jpg" media="(max-width: 600px) and (orientation: portrait)">
+      <img src="img/me-1.jpg">
+    </picture>
   </div>
   <div class="navbar" id="myNavbar">
     <a href="https://peerbo.github.io/">Home</a>
@@ -75,25 +76,25 @@
     </div>
     <h1>About Me</h1>
   </article>
-  <div class="article-box" style="height: 85vh">
+  <!-- TODO: FIX GRADIENT TO STAY FIXED FOR THIS -->
+  <div class="article-box" style="height: 80vh;">
     <div class="blank-space">
-      <h2> The weird fade on the side/top (depending on where you're from)
-        is only temporary. It will be replaced soon with another picture ^^
-        <br>On another note, I have not yet updated this part but I intend
-        on doing so as soon as I fix the last few things such as some phone
-        modifications for the update bar on the homepage.
-      </h2>
+      <div class="txt">
+        <br>
+        My name is Kerim Peerbocus and I come from Mauritius, which
+        is a small island in the Indian Ocean (bonus points if you
+        actually knew where it was before I said it lol)
+        <br>
+        <br>
+        I am in BCom with two major concentrations - Entrepreneurship
+        and Retail Management - at McGill University. Currently, I am
+        in my second year, and I am hoping to graduate by 2022. This
+        whole website here is the result of me having nothing to do
+        during a mandatory quarantine on my trip back home, so I hope
+        I did a good job <span class= "heart">&#10084;</span>
+      </div>
     </div>
   </div>
-  <!--p>
-      My name is Kerim.<br/>
-      I am a 20yr old guy enrolled in McGill University for a BCom Major in
-      Entrepreneurship and Retail Management. <br/>
-      I am originally from Mauritius, which is a small island in the Indian Ocean.
-      So, for now, there is only my resume here because I have not been able
-      to write anything down as much with COVID-19 and the Fall semester
-      adjustment for assignments. However, rest assured that this website will
-      be developed further in the coming weeks.-->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>

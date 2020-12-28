@@ -1,29 +1,54 @@
 /* About Page Specifics */
-
-
-
-
-    /* FIX LANDSCAPE FOR PHONE */
-
-
-
-
+/* TODO: FIX LANDSCAPE FOR PHONE */
 
 /* Fading Image */
+.about-pic {
+  display: block;
+  width: 100%;
+  height: 0;
+}
 img {
   right: 0;
   width: 50vw;
-  height: 130vh;
+  height: 125vh;
   margin-top: -8px;
   position: absolute;
 }
 img {
   -webkit-mask-image:-webkit-gradient(linear, right top, left top,
-  color-stop(40%,var(--bg-color)), color-stop(60%, rgba(251, 251, 251, 0.5)),
+  color-stop(50%,var(--bg-color)), color-stop(60%, rgba(251, 251, 251, 0.5)),
   color-stop(80%, rgba(0, 0, 0, 0)));
 }
 
 /* Textwrap for Fading Pic */
 .blank-space {
   margin-right: 40vw;
+}
+
+/* Background for PC */
+body {
+  background: url("../../peerbo.github.io/img/arches-abt.png"),
+    linear-gradient(to right, #1c5965, #329db2, #6fc5d6);
+  animation: slide-right 30s ease-in-out infinite;
+}
+
+@keyframes slide-right {
+  0% { background-position: left; }
+  50% { background-position: center; }
+  100% { background-position: left; }
+}
+
+/* Background for Phone */
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  body {
+    background-image: url("../../peerbo.github.io/img/arches.png"),
+    linear-gradient(to top, #1c5965, #329db2, #6fc5d6);
+    animation: slide 20s ease-in-out infinite;
+  }
+
+  @keyframes slide {
+    0% { background-position: top; }
+    50% { background-position: center; }
+    100% { background-position: top; }
+  }
 }
