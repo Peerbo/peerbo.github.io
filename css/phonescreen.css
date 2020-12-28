@@ -98,8 +98,10 @@ the close button again, so they don't overlap *
 
 /* About Fading Picture */
 img {
+  object-fit: cover;
   width: 100vw;
-  height: 80vh;
+  height: auto;
+  overflow: hidden;
 }
 img {
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,

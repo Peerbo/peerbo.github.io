@@ -9,9 +9,10 @@
 }
 img {
   right: 0;
-  width: 50vw;
-  height: 125vh;
+  width: auto;
+  height: 100vh;
   margin-top: -8px;
+  margin-right: max(1 / -30%, 1 / -50vw);
   position: absolute;
 }
 img {
@@ -22,7 +23,7 @@ img {
 
 /* Textwrap for Fading Pic */
 .blank-space {
-  margin-right: 40vw;
+  margin-right: 50vw;
 }
 
 /* Background for PC */
@@ -50,5 +51,35 @@ body {
     0% { background-position: top; }
     50% { background-position: center; }
     100% { background-position: top; }
+  }
+}
+
+
+@media (max-width: 1400px){
+  img {
+    object-fit: cover;
+    width: 100vw;
+    max-height: 80vh;
+    height: auto;
+    overflow: hidden;
+  }
+  img {
+    -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
+    color-stop(40%,var(--bg-color)), color-stop(70%,rgba(251,251,251,0.5)),
+    color-stop(90%,rgba(251,251,251,0)));
+  }
+  .blank-space {
+    margin-right: 0;
+  }
+  .about-pic {
+    position: relative;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: auto;
+    width: 100vw;
+    height: 60vh;
+    margin: 0;
+    display: block;
   }
 }
