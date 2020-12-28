@@ -126,7 +126,7 @@ body::-webkit-scrollbar-thumb {
 /* Navigation Bar */
 .navbar {
   /* Navbar Position */
-  background: linear-gradient(to bottom, var(--circle2-color), var(--circle1-color) 25%, var(--circle2-color) 75%); /*var(--bg-color);*/
+  background: linear-gradient(to bottom, var(--circle2-color), var(--circle1-color) 25%, var(--circle2-color) 75%);
   overflow-x: hidden;
   position: fixed;
   bottom: 0;

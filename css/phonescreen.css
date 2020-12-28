@@ -99,7 +99,7 @@ the close button again, so they don't overlap *
 /* About Fading Picture */
 img {
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
 }
 img {
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,

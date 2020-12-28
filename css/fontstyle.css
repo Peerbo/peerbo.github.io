@@ -15,13 +15,15 @@
 /* Color Scheme */
 :root {
   --h1-color: #f9f3e8;
-  --h3-color:#12646f;
   --text-color: #f7f0e1;
   --sidenav-head: #d0a144;
-  --text-update: #676251;
-  --update-head: #554f03;
+  --sidenav-txt: #676251;
+  --update-head: #393939;
+  --update-txt: #676251;
+
+  /*--update-head: #554f03;
+  --update-txt: #676251;*/
   --link: #00dc9f;
-  /*--link: #92dccd;*/
 }
 
 /* Headings and Subheadings */
@@ -31,8 +33,6 @@ h1{
   font-family: 'Allura', cursive;
   margin: 0.67em 0 0.67em 0.5em;
 }
-
-/* TODO:CHANGE H2 TO SOMETHING ELSE EVERYWHERE; HAS TO BE BODY?? */
 h2{
   font-size: 25px;
   color: var(--text-color);
@@ -48,7 +48,6 @@ h2{
   height: fit-content;
   transition: 1s;
 }
-
 .article-box .txt {
   font-size: 25px;
   color: var(--text-color);
@@ -57,30 +56,10 @@ h2{
   margin: 1em 0.5em 0.67em 0.67em;
   padding-bottom: 45px;
 }
-
 .heart{
   font-size: 25px;
   color: transparent;
   text-shadow: 0 0 0 var(--link);
-}
-
-.resumehd {
-  font-size: 30px;
-  color: var(--h1-color);
-  font-family: 'Josefin Slab', serif;
-  margin-top: 1em;
-  margin-right: 0.5em;
-  margin-left: 2vw;
-  margin-bottom: 0;
-  text-decoration: underline;
-}
-
-.resumetxt {
-  font-size: 25px;
-  color: var(--text-color);
-  font-family: 'Josefin Sans', sans serif;
-  font-weight: bold;
-  margin: 0 0.5em 0 3vw;
 }
 
 /* For Notes and Letters */
@@ -105,6 +84,26 @@ h2{
   margin: 1em 4vw 0.67em 22vw;
 }
 
+/* For the Resume Page */
+.resumehd {
+  font-size: 30px;
+  color: var(--h1-color);
+  font-family: 'Josefin Slab', serif;
+  margin-top: 1em;
+  margin-right: 0.5em;
+  margin-left: 2vw;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.resumetxt {
+  font-size: 25px;
+  color: var(--text-color);
+  font-family: 'Josefin Sans', sans serif;
+  font-weight: bold;
+  margin: 0 0.5em 0 3vw;
+}
+
+
 /* Home Page Update Bar */
 /* TODO: MAKE TITLE BAR FIXED FOR UPDATE BOX */
 .sidenav .mainhd{
@@ -119,19 +118,19 @@ h2{
   font-size: 25px;
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
-  color: var(--text-update);
+  color: var(--sidenav-txt);
   padding: 5px 5px 10px 32px;
   transition: 0.5s;
 }
 .updates .hd{
   margin-left:2vw;
-  padding: 1vw 0;
-  text-decoration: none;
+  padding: 3vh 0 1vh;
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   color: var(--update-head);
   text-transform: uppercase;
+  text-decoration: underline;
 }
 .updates .txt{
   font-size: 25px;
@@ -139,8 +138,9 @@ h2{
   font-weight: bold;
   margin-left: 2vw;
   text-decoration: none;
-  color: var(--text-update);
+  color: var(--update-txt);
   text-align: justify;
+  padding-bottom: 2vh;
 }
 
 

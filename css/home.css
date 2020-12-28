@@ -3,9 +3,9 @@
 /* Color Scheme */
 :root {
   --sidenav-color: #3475ae;
-  --overlay-color: rgba(227, 227, 202, 0.9);
-  --overlay-dark: rgba(252, 228, 155,0.9);
-  --overlay-darker: rgba(252, 224, 139, 0.8);
+  --overlay-color: rgba(232, 227, 208, 0.9);
+  --overlay-dark: rgba(200, 187, 141,0.9);
+  --overlay-darker: rgba(182, 164, 103, 0.9);
   --sidenav-scroll: #d0a144;
   --sidenav-hover: #d0a144;
 }
@@ -84,7 +84,7 @@
   margin-left: 50px;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  color: var(--text-update);
+  color: var(--sidenav-txt);
   display: block;
   transition: 1s;
 }
