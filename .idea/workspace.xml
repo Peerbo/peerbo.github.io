@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Light theme partially correct :sun:&#10;Also finished the resume page for now XD">
-      <change afterPath="$PROJECT_DIR$/img/binding-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/binding-light.png" afterDir="false" />
+    <list default="true" id="de94810b-d664-4d6e-8817-20c47e3ef516" name="Default Changelist" comment="Fixed the About Page picture ✨">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mainformat.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mainformat.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/phonescreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phonescreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +98,7 @@
       <workItem from="1608918959594" duration="7728000" />
       <workItem from="1608979730765" duration="58963000" />
       <workItem from="1609069572223" duration="19145000" />
-      <workItem from="1609117705407" duration="8417000" />
+      <workItem from="1609117705407" duration="9112000" />
     </task>
     <task id="LOCAL-00001" summary="Add HTML boilerplate">
       <created>1607812461888</created>
@@ -417,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609091950142</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Fixed the About Page picture ✨">
+      <created>1609126416114</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609126416114</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +434,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added the Resume finally :purple_heart:" />
     <MESSAGE value="Finally added a resume :purple_heart:" />
     <MESSAGE value="Tried changing the favicon&#10;Let's hope it works XD" />
     <MESSAGE value="Added an About Page, tho I don't have the link yet :/" />
@@ -461,6 +458,7 @@
     <MESSAGE value="New Dark Mode Background :moon:✨" />
     <MESSAGE value="Started working on updating the light theme :sun:&#10;Also finished a first draft of my About page" />
     <MESSAGE value="Light theme partially correct :sun:&#10;Also finished the resume page for now XD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Light theme partially correct :sun:&#10;Also finished the resume page for now XD" />
+    <MESSAGE value="Fixed the About Page picture ✨" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the About Page picture ✨" />
   </component>
 </project>

@@ -26,7 +26,7 @@ h1{
 /* Navigation Bar */
     /* Hide all Except Home */
     /* TODO:GET ACTIVE TO SHOW RATHER THAN JUST HOME */
-.navbar a:not(:first-child) {display: none;}
+.navbar a:not(.active) {display: none;}
 .navbar a.icon {
   float: right;
   display: block;
