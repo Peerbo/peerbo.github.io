@@ -2,8 +2,7 @@
 
 /* Margin on the sides */
 body{
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
 }
 
 /* Main Title */
@@ -98,8 +97,10 @@ the close button again, so they don't overlap *
 
 /* About Fading Picture */
 img {
+  object-fit: cover;
   width: 100vw;
-  height: 80vh;
+  height: auto;
+  overflow: hidden;
 }
 img {
   -webkit-mask-image:-webkit-gradient(linear, left top, left bottom,
@@ -110,14 +111,13 @@ img {
   margin-right: 0;
 }
 .about-pic {
-  position: relative;
-  z-index: -1;
-  left: 0;
-  top: 0;
-  right: auto;
-  width: 100vw;
-  height: 60vh;
-  margin: 0;
-  display: block;
+  /*position: relative;*/
+  /*z-index: -1;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*right: auto;*/
+  /*width: 100vw;*/
+  /*margin: 0;*/
+  /*display: block;*/
 }
 
