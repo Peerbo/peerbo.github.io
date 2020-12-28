@@ -1,6 +1,21 @@
 /* About Page Specifics */
 /* TODO: FIX LANDSCAPE FOR PHONE */
 
+html{
+  background: url("https://peerbo.github.io/img/arches.png"),  linear-gradient(to top, var(--sea1), var(--sea2), var(--sea3));
+  animation: slide 20s ease-in-out infinite;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+  z-index: -500;
+}
+
+
+
+body{
+  margin: 0;
+}
+
 /* Fading Image */
 .about-pic {
   display: block;
@@ -27,12 +42,6 @@ img {
 }
 
 /* Background for PC */
-body {
-  background: url("../../peerbo.github.io/img/arches-abt.png"),
-    linear-gradient(to right, #1c5965, #329db2, #6fc5d6);
-  animation: slide-right 30s ease-in-out infinite;
-}
-
 @keyframes slide-right {
   0% { background-position: left; }
   50% { background-position: center; }
@@ -41,11 +50,6 @@ body {
 
 /* Background for Phone */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
-  body {
-    background-image: url("../../peerbo.github.io/img/arches.png"),
-    linear-gradient(to top, #1c5965, #329db2, #6fc5d6);
-    animation: slide 20s ease-in-out infinite;
-  }
 
   @keyframes slide {
     0% { background-position: top; }

@@ -20,13 +20,18 @@
   --circle2-color: #a27928;
 }
 
+html{
+   background: url("https://peerbo.github.io/img/arches.png"),  linear-gradient(to top, var(--sea1), var(--sea2), var(--sea3));
+  animation: slide 20s ease-in-out infinite;
+  height: 100vh;
+  overflow-x: hidden;
+  margin: 0;
+}
+
 /* Page Background */
 /* TODO: PUT IN SAME THING THAT SASHA PUT IN DARK MODE */
 body {
-  background: url("../../peerbo.github.io/img/arches.png"),
-      linear-gradient(to top, var(--sea1), var(--sea2), var(--sea3));
-  animation: slide 20s ease-in-out infinite;
-  overflow-x: hidden;
+
 }
 
 @keyframes slide {
